@@ -4,17 +4,27 @@
 
 You are going to develop a single page portfolio. This one page introduces you to the basics of RWD (responsive web design), mobile first web development and further elements of page layout, typography, web design and coding.
 
+## Contents
+
+* [Task 1 - Getting started](##Task-1---Getting-started)
+* [Task 2 - Review of HTML template](##Task-2---Review-of-HTML-template)
+* [Task 3 - Adding your content and metadata](##Task-3---Adding-your-content-and-metadata) 
+* [Task 4 - The CSS re-set](##Task-4---The-CSS-re-set)
+* [Task 5 - Selecting & adding Google Fonts](##Task-5---Selecting-&-adding-Google-Fonts)
+
 ## Task 1 - Getting started
 
-- Create a folder called `term_two_project` to contain this project. 
-- Get the template portfolio code from github.
-- **IMPORTANT** If you are doing IWD (Apprentice Intro to web) use the [l4-rwd-template code](https://github.com/mmu-webdesign/l4-rwd-template)
-- **IMPORTANT** If you are doing WPD (Web Page Development) use the [l4-rwd-template-components code](https://github.com/mmu-webdesign/l4-rwd-template-components)
-- Check you have the right template. Using the wrong template will get you out of sync later on in these instructions.
+- Download the template portfolio code from github and extract to your computer.
+> **Download** - [l4-rwd-template code](https://github.com/mmu-webdesign/l4-rwd-template)
+
+### Instructions
 - Select the green _Clone or download_ button, select _Download ZIP_. Locate the ZIP file and extract the contents.
-- You only need the `portfolio` folder - move this into your `term_two_project` folder.
+Extract the folder to a safe location on your computer.
+- Rename the folder `portfolio`. 
+- Delete the README.md file.
 - Using _Visual Studio Code_ - open folder to define on the `portfolio` folder. Open `index.html` and `layout.css`.
 
+> Where did you save the portfolio folder? Is it safe? Will it be backed up regularly? Will you lose all of your work if you accidently delete the folder? Can you find it next week?
 ---
 
 [VIDEO - Demonstration of downloading and extracting the files, defining the site in Visual Studio Code, testing and viewoing.](https://youtu.be/h5Tvh7dPPxs) 
@@ -29,34 +39,52 @@ You are going to develop a single page portfolio. This one page introduces you t
  ```
 
 
-- Everything should get a red border. Yes? Then you can delete this line.
+- Save `layout.css` and re-load `index.html` in the browser. Everything should get a red border. Yes? Then you can delete this line of CSS.
+
+### Your *root* folder
+
+The `portfolio` folder is the root of your website. This will contain all the files and sub-folders of your portfolio site. Don't link to any files outside of this folder. Come submission, you will submit this folder and its contents.
+
 
 ### Working *mobile first*
-Keep your browser window small (mobile size - no more than half) - don't develop your site with your browser set to fill the screen - we are developing *mobile first*.
+>Keep your browser window small (mobile size - no more than half) - don't develop your site with your browser set to fill the screen - we are developing *mobile first*.
 
 ---
 
-## Task 2 - The structure - review of HTML template
+## Task 2 - Review of HTML template
 
-We will provide an overview of the semantic structure and how this relates to the visual design of the template in class.
+In class we will provide a review of the semantic structure and how this relates to the visual design of the template in class.
 
-### Download full PDF
+### Download the PDF
 
--  **Technical Solutions Apprentice students** - [Page Layout & code structure explained](https://github.com/mmu-webdesign/responsive-web-tutorial/blob/master/design-templates/apprentice-website-structure.pdf).
-
- - **Digital Media & Communications students** - [Page Layout & code structure explained](https://github.com/mmu-webdesign/responsive-web-tutorial/blob/master/design-templates/dmc-website-structure.pdf).
+>[Illustrated page layout & code structure](https://github.com/mmu-webdesign/responsive-web-tutorial/blob/master/design-templates/apprentice-website-structure.pdf)
 
 ---
 
 ## Task 3 - Adding your content and metadata
 
 
-**Add your content** (created over the last week) to the HTML file in the About and Work sections. 
-
-**Tag up your content**, remembering to use headings, paragraphs, links, and lists as appropriate. 
+### Add your content
+ 
+ Using the content created over the last week, add it to `index.html` in the `About` and `Work` sections. 
 
 - **About me** – engaging text to attract and inform the user. 150 words maximum plus relevant links.
-- **Work experience** – details of your current and previous work experience or change this section to **Interests** in relation to your course. 200 words maximum.
+- **Work experience** – details of your current and previous work experience or change this section to **Interests** in relation to your course. 200 words maximum. 
+- Please note the word counts - students do lose marks for lack of effort.
+
+### Tag up your content
+
+Apply html *tags* to your content. Remember to use headings, paragraphs, links, and lists as appropriate to structure your content.
+
+### Coding tips
+
+- Only one `<h1>`
+- Headings are about levels of importance. Therefore if each sub-section are of equal importance, they will all be for example `<h2>`.
+- Don't use `<br>` to create space - that's done later with CSS.
+- Create space with `<p>`, don't have big blocks of text (a single paragraph).
+- Use lists and tables if appropriate.
+
+
 
 ### Metadata
 
@@ -78,7 +106,7 @@ For a deeper understanding of the meta viewport tag read - [Using the viewport m
 ```
 Write a title that clearly describes your page/site. As this is a personal portfolio it should probably contain your name. 
 
-For advice on writing a good page title read [the Title Tag article on MDN](https://moz.com/learn/seo/title-tag).
+For advice on **writing a good page title** read [the Title Tag article on MDN](https://moz.com/learn/seo/title-tag).
 
 #### The Meta Description
 
@@ -90,88 +118,21 @@ Write a good description that compliments and expands on your title.
 ```
 Again, there is a good MDN article on the [Meta Description element and SEO good practices](https://moz.com/learn/seo/meta-description).
 
-#### Tip
+#### A plea from us...
 
-Neither your title, meta description or your main heading should contain the words *hello* or *welcome*. Please!
+Neither your title, meta description or your main heading should contain the words *hello* or *welcome*. Please! 
 
 ## Before you go further
 
-- [Validate your HTML additions](https://validator.w3.org/#validate_by_upload). Fix any problems.
+>[Validate your HTML coding](https://validator.w3.org/#validate_by_upload). Fix any problems.
 
 ---
 
 ## Task 4 - The CSS re-set
 
-### Making your CSS *sensible*.
+### Box sizing
 
-Our template includes `layout.css`. We have included a basic re-set (to remove some of the browsers default settings) and comments to guide your initial styling. 
-
-The following is a breakdown of each of the re-set styles applied to `layout.css`. Please read through and ask questions if you don't understand something.
-
-
-```
-body {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif; 
-```
-
-Update the font-family with a Google Font, web safe font and generic fall back.
-
-```
-    font-size: 100%; 
-```
-Remember that the default browser font size is 16px.
-```
-    line-height: 1 ; 
-```
-
-update to suit your type choices
-
-```
-    color: #000;  
-```
-    /* base text colour - update to suit your design */
-```
-}
-```
-
-Default element re-sets (headings, paragraphs and lists).
-```
-h1,
-h2,
-h3,
-p,
-ol,
-ul {
-    margin: 0;
-    padding: 0;
-    font-weight: normal;
-}
-```
-The final re-set provided improves default font styles for forms. By default form input and text areas do not inherit the font-family (like all other elements) applied to the body.
-```
-input,
-textarea {
-    font-family: sans-serif;
-}
-```
-As with the body you will need to update the font-family with a Google Font, web safe font and generic fall back.
-
-Save any changes to `layout.css`.
-
----
-## Note
-
-We have found that the CSS re-set can be distracting at this stage. You may prefer to comment out all of the above re-sets (but this isn't easy). 
-
-Either way, don't re-apply margins etc with your own CSS. You page will look bad, but we will address this next week.
-
----
-
-## Task 5 - Two further CSS  re-sets
-
-We would like you to now add two more essential CSS re-sets to `layout.css`.
+We would like you to add two essential CSS re-sets to `layout.css`.
 
 ```
 /* box sizing */
@@ -180,7 +141,11 @@ Find the above comment in `layout.css` and [add the border box model CSS code fr
 
 You will remember that by default browsers define a box size as `width or height + padding + border` = actual width or height. Applying `box-sizing: border-box;` means the width or height includes any padding and/or border. This tends to make life easier - you want a 200px wide box, that's what you now get. For a more detailed explanation see [Box Sizing explained on CSS Tricks](https://css-tricks.com/box-sizing/).
 
-At the moment this won't make any difference to you page. This comes later. Now add our final re-set.
+At the moment this won't make any difference to you page. This comes later. 
+
+### Flexible images
+
+Look for this comment in `layout.css`.
 
 ```
 /* flexible content images code */
@@ -189,16 +154,16 @@ Looking at `index.html` in your browser you will have noticed that the images we
 
 To fix this problem add this [flexible image CSS code from Derren's CodePen](https://codepen.io/wilsondmmu/pen/ZvPBgv) to `layout.css`. 
 
-Save the changes to `layout.css` and reload `index.html` in your browser. You will now see that the dummy images we have provided size themselves to the browser window. Whilst this is not true *responsive images* - that would serve differnt size images to different size screens, it does provide a simple solution.
+Save the changes to `layout.css` and reload `index.html` in your browser. You will now see that the dummy images we have provided size themselves to the browser window. Whilst this does not deliver true *responsive images* - that would serve different size images to different size screens, it does provide a simple solution.
 
-Remember as you further develop your CSS to add comments as you go to your code *about* what you've added. The syntax for CSS comments: 
+Remember to add comments as you further develop your CSS to ensure developers (and tutors) understand your workings. The syntax for CSS comments: 
 
  ```
  /* your comment */
  ```
 ---
 
-## Task 6 - Selecting & adding Google Fonts
+## Task 5 - Selecting & adding Google Fonts
 
 Web Fonts offers a much wider array of options beyond the basic web safe font families. It is now possible create or buy Web Fonts to enhance the design of your site. Google Fonts provides a free and easy to use option. 
 
