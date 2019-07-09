@@ -438,3 +438,5 @@ And finally:
 - Fix any problems before you continue.
 
 ### Are you up to date?
+
+[Return to the Top](#contents)

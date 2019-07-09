@@ -82,3 +82,5 @@ background:white url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/923354/Rolling
 * Try messing up the email address - it shouldn't allow you to send the form without a valid email address
 * Try messing up or typing text into the phone field - it shouldn't allow you to do this
 * The line that says `return true;` in the JavaScript: temporarily change this to `return false;` and fill the form in correctly. The button will then change as if the form is being sent but nothing will happen, so you can check your button styling.
+
+[Return to the Top](#contents)
