@@ -13,7 +13,7 @@ Well written content and high quality media is essential for the success of your
 
 For simplicity we ask you to develop the content for your portfolio based on yourself and your job.
 
-- **About me** – engaging text to attract and inform the user. Mindful of Search Engine Optimisation (SEO), using relevant keywords and such. Tell the reader something about yourself. 150 words maximum. You may want to include links to your social media feeds in this section if you have them.
+- **About me** – engaging text to attract and inform the user. Mindful of Search Engine Optimization (SEO), using relevant keywords and such. Tell the reader something about yourself. 150 words maximum. You may want to include links to your social media feeds in this section if you have them.
 
 - **Work experience** – details of your current and previous work experience. Include relevant links and media. 200 words maximum. **NOTE** - If you have no work experience change this section to **Interests** in relation to your course.
 
@@ -21,7 +21,7 @@ However, in recent years some students have created successful pages by making a
 
 ## Original images for the gallery
 
-It is important that your portfolio includes orginal media. Everyone has a camera in their pocket. Be creative, take some original photos to illustrate your theme and to engage the user.
+It is important that your portfolio includes original media. Everyone has a camera in their pocket. Be creative, take some original photos to illustrate your theme and to engage the user.
 
 - Take or create three original images to illustrate things important to you.
 - Usually these are photographs (jpeg format). 

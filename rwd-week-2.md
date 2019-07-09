@@ -11,6 +11,7 @@ You are going to develop a single page portfolio. This one page introduces you t
 * [Task 3 - Adding your content and metadata](#Task-3---Adding-your-content-and-metadata) 
 * [Task 4 - The CSS re-set](#Task-4---The-CSS-re-set)
 * [Task 5 - Selecting and adding Google Fonts](#Task-5---Selecting-and-adding-Google-Fonts)
+* [Task 6 - Selecting a colour scheme](#Task-6---Selecting-a-colour-scheme)
 
 ## Task 1 - Getting started
 
@@ -166,13 +167,17 @@ Remember to add comments as you further develop your CSS to ensure developers (a
 
 ## Task 5 - Selecting and adding Google Fonts
 
-Web Fonts offers a much wider array of options beyond the basic web safe font families. It is now possible create or buy Web Fonts to enhance the design of your site. Google Fonts provides a free and easy to use option. 
+Web Fonts offer a much wider array of options beyond the basic web safe font families. It is now possible to create or buy Web Fonts to enhance the design of your site. Google Fonts provides a free and easy to use option. 
 
-There are some drawbacks. Adding Web Fonts to your page increases the overall download time and *weight* of the page. Fonts can be costly. Free doesn't always mean good. 
+There are some drawbacks. 
 
-We would you to select either a single Google Font for both your headings and text, or a pair of complimentary fonts (one for headings, one for the text). 
+- Adding Web Fonts to your page increases the overall download time and *weight* of the page. 
+- Fonts can be costly. 
+- Free doesn't always mean good. 
 
-Read the [MDN Web Fonts article](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts) for much more detail if you would like a deeper understanding.
+We would like you to select either a single Google Font for both your headings and text, or a pair of complimentary fonts (one for headings, one for the text). 
+
+Read the [MDN Web Fonts article for much more detail](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts) if you would like a deeper understanding of what web fonts are, and how they are implemented. Please note that by using Google Fonts we are not asking you to download the fonts you are using, as described in the article.
 
 ### Selecting and adding your Google Font(s)
 
@@ -189,7 +194,7 @@ Once you have chosen your font(s), they need to be added to your HTML and CSS.
 
 - Add the Google Font code for your *body copy* to the `<head>` of your `index.html` file, **before the link to** `layout.css`. Repeat this if you have selected a second font.
 - Add the font-family CSS rule from Google Fonts to your body rule in `layout.css`.
-- By default Google provides a family of the font you have selected and a generic fallback. Insert between these [a suitable web safe font](https://codepen.io/wilsondmmu/pen/ZaJwOy).
+- By default Google provides the family of the font you have selected and a generic fallback. Insert between these [a suitable web safe font](https://codepen.io/wilsondmmu/pen/ZaJwOy).
 - Base font (body) should read - Google font, web safe font, fallback.
 
 Save `layout.css` and view the changes to `index.html` in a browser.
@@ -205,6 +210,10 @@ Save `layout.css` and view the changes to `index.html` in a browser.
 /* element styling (e.g. standard p, h1, h2, a, etc) */
 ```
 Find the above comment in `layout.css` and add styles to headings and paragraphs.
+
+> **Remember** that at the moment all of these styles are for your mobile design. If the defaults are working, don't adjust for the sake of it.
+
+- Once you have applied a Google font to the body element, all text will inherit this style (except for the form - more later). Don't reapply the same font to headings or paragraphs in your CSS. 
 
 - If you have selected a second Google Font for headings you will need to apply this (usually to all headings).
 
@@ -231,28 +240,38 @@ p {
 ```
 Experiment to see what works best for your chosen fonts. Are the paragraphs legible? Are the headings suitably big enough?
 
+> **Remember** we are still mobile size. 
 
-- Next adjust the line-height in your body rule. Adjust to improve the legibility of your text.
 
-- Save `layout.css` and check it's working by viewing `index.html` in your browser. Does it look right? **Adjust it until it does**.
+- Next adjust the line-height in your body rule. Adjust to improve the legibility of your text. 
+
+[Read the MDN article on Line Height](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height) to learn why it is better to use `number` values instead of `length` values  and why a minimum of 1.5 is good for accessability. 
+
+- Save `layout.css` and check it's working by viewing `index.html` in your mobile size browser. Does it look right? Is it easy to read? 
+
+- Adjust your CSS it until you are satisfied. Ask tutors and friends to take a look.
+
 - Style your header `<h1>` and section `<h2>` headings by changing one or two things about them: font-weight, font-size, color, text-transform: uppercase, letter-spacing etc.
 
 As the project develops you will adjust and enhance these settings. You may spot a *better* font. You will improve your writing and you will undoubtedly add more sophisticated styles. 
 
+> **Remember** that you are always aiming for lean, efficient coding. Don't just keep adding for the sake of it. Make sure (especially in CSS) that you aren't repeating rules for styles already applied.
+
 ---
 
-## Task 7 - Selecting a colour scheme
+## Task 6 - Selecting a colour scheme
 
-On our illustration of the layout we have alternate grey and white background colours for each section, plus a black background for both the navigation and footer. We would like you to select an appropriate colour scheme. This would include colours for:
+On our [illustration of the layout (pdf)](https://github.com/mmu-webdesign/responsive-web-tutorial/blob/master/design-templates/apprentice-website-structure.pdf) we have alternate grey and white background colours for each section, plus a black background for both the navigation and footer. We would like you to select an appropriate colour scheme for these contrasting areas. This would include colours for:
 
 - Body text
 - Headings
 - Navigation (background)
+- Navigation (text colour)
 - Sections (background) - two complimentary/contrasting colours
 - Footer (background)
 - Link colours (all states)
 
-**Research a colour scheme** - try [coolors.co](https://coolors.co/). 
+[Research a colour scheme - try coolors.co](https://coolors.co/). 
 
 **Choose one primary colour and use tints and shades of that colour for the backgrounds. You may also want to select an accent colour.**
 
@@ -262,16 +281,27 @@ We will apply the colours next week.
 
 If you want to learn more [read Building Your Color Palette](https://refactoringui.com/previews/building-your-color-palette/). This will help in selecting your pallete, including selecting primary and accent colours.
 
-## Colour resources
+> **Video** - Derren selects the colour scheme for his demonstration site.
+
+### Colour resources
 
 - [Coolors.co](https://coolors.co/) - a really good colour palette chooser.
 - [Adobe colour wheel](https://color.adobe.com/create/color-wheel/) - you may also want to try out this colour tool which helps you come up with colour palettes for your site.
 - [CSS for Backgrounds](http://cssreference.io/backgrounds/) - a reference site for all the ways we can control backgrounds in CSS.
-- [WebAIM Colour Contrast Checker](https://webaim.org/resources/contrastchecker/) and [WebAIM Link Contrast Checker](https://webaim.org/resources/linkcontrastchecker/).
+
+## Colour accessibility
+
+You must ensure that you maintain a good contrast between background and foreground colours. You can use a variety of contrast checking tools to ensure that the colours your choose conform to the WCAG (Web Content Accessibility Guidelines) standards.
+
+- [WebAIM Colour Contrast Checker](https://webaim.org/resources/contrastchecker/) 
+- [WebAIM Link Contrast Checker](https://webaim.org/resources/linkcontrastchecker/)
+- Lea Verou's [Contrast Ratio checker](https://contrast-ratio.com/).
+
+> BBC Gel (Global experience language) has a video that is worth watching as it explains how the accessibility of products we design and develop affect disabled peoples lives in a variety of ways. [Video - It's our passion, joy, and responsibility to build a great BBC for everyone](https://www.bbc.co.uk/gel/articles/bbc-for-everyone).
 
 ---
 
-## Task 8 - The Style Guide
+## Task 7 - The Style Guide
 
 In your pages folder you will find `style-guide.html`. This is a standalone style guide for your site. 
 
