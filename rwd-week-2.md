@@ -27,10 +27,10 @@ Extract the folder to a safe location on your computer.
 - Delete the README.md file.
 - Using _Visual Studio Code_ - open folder to define on the `portfolio` folder. Open `index.html` and `layout.css`.
 
-> Where did you save the portfolio folder? Is it safe? Will it be backed up regularly? Will you lose all of your work if you accidently delete the folder? Can you find it next week?
+> Where did you save the portfolio folder? Is it safe? Will it be backed up regularly? Will you lose all of your work if you accidentally delete the folder? Can you find it next week?
 ---
 
-[VIDEO - Demonstration of downloading and extracting the files, defining the site in Visual Studio Code, testing and viewoing.](https://youtu.be/h5Tvh7dPPxs) 
+[VIDEO - Demonstration of downloading and extracting the files, defining the site in Visual Studio Code, testing and viewing in a browser.](https://youtu.be/h5Tvh7dPPxs) 
 
 ---
 
@@ -296,11 +296,12 @@ If you want to learn more [read Building Your Color Palette](https://refactoring
 
 ## Colour accessibility
 
-You must ensure that you maintain a good contrast between background and foreground colours. You can use a variety of contrast checking tools to ensure that the colours your choose conform to the WCAG (Web Content Accessibility Guidelines) standards.
+You must ensure that you maintain a good contrast between background and foreground colours. You can use a variety of contrast checking tools to ensure that the colours your choose conform to the WCAG (Web Content Accessibility Guidelines) standards and provide sufficient contrast. Read [MDN's article on Colour Contrast](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Perceivable/Color_contrast).
 
 - [WebAIM Colour Contrast Checker](https://webaim.org/resources/contrastchecker/) 
 - [WebAIM Link Contrast Checker](https://webaim.org/resources/linkcontrastchecker/)
 - Lea Verou's [Contrast Ratio checker](https://contrast-ratio.com/).
+
 
 > BBC Gel (Global experience language) has a video that is worth watching as it explains how the accessibility of products we design and develop affect disabled peoples lives in a variety of ways. [Video - It's our passion, joy, and responsibility to build a great BBC for everyone](https://www.bbc.co.uk/gel/articles/bbc-for-everyone).
 
@@ -319,17 +320,15 @@ At the end of this session [validate your HTML](https://validator.w3.org/#valida
 Before you start Week 3 - Have you completed everything?
 
 - Download the template files from GitHub
-- Define the site in Visual Studio Code and view the files (`index.html`, `layout.css` and `style-guide.html`)
+- Define the site in Visual Studio Code and view the files (`index.html`and `layout.css`)
 - Working mobile first - resize your browser
 - Review the structure - understand how the design is reflected in the semantic markup.
-- View the full (relevant) layout PDF.
-- Add your content (tag it up).
+- [View the full layout PDF](https://github.com/mmu-webdesign/responsive-web-tutorial/blob/master/design-templates/apprentice-website-structure.pdf).
+- Add your content to `index.html` and tag it up.
 - Validate to check for errors.
-- Review the CSS re-sets we have provided - ask if you don't understand.
-- Add the box sizing and flexible image re-sets.
+- Add the box sizing and flexible image CSS re-sets.
 - Select and add your Google fonts.
 - Select a colour scheme ready for implementing next week.
-- Edit `style-guide.html` to add your colours and font(s).
 
 And finally:
 
