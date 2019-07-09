@@ -18,7 +18,7 @@ You are going to develop a single page portfolio. This one page introduces you t
 ## Task 1 - Getting started
 
 - Download the template portfolio code from github and extract to your computer.
-> **Download** - [l4-rwd-template code](https://github.com/mmu-webdesign/l4-rwd-template)
+> **Download** - [The IWD Template Portfolio Site](https://github.com/mmu-webdesign/l4-rwd-template)
 
 ### Instructions
 - Select the green _Clone or download_ button, select _Download ZIP_. Locate the ZIP file and extract the contents.
