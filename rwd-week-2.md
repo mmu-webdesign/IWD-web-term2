@@ -12,6 +12,8 @@ You are going to develop a single page portfolio. This one page introduces you t
 * [Task 4 - The CSS re-set](#Task-4---The-CSS-re-set)
 * [Task 5 - Selecting and adding Google Fonts](#Task-5---Selecting-and-adding-Google-Fonts)
 * [Task 6 - Selecting a colour scheme](#Task-6---Selecting-a-colour-scheme)
+* [Checklist](#Week-2-Checklist)
+
 
 ## Task 1 - Getting started
 
@@ -281,7 +283,10 @@ We will apply the colours next week.
 
 If you want to learn more [read Building Your Color Palette](https://refactoringui.com/previews/building-your-color-palette/). This will help in selecting your pallete, including selecting primary and accent colours.
 
-> **Video** - Derren selects the colour scheme for his demonstration site.
+> **Video** - Derren selects the colour scheme for his demonstration site using his magic colour scheme try out machine.
+
+[Link to the Magic Colour Scheme Try Out Machine](http://**).
+
 
 ### Colour resources
 
@@ -298,28 +303,6 @@ You must ensure that you maintain a good contrast between background and foregro
 - Lea Verou's [Contrast Ratio checker](https://contrast-ratio.com/).
 
 > BBC Gel (Global experience language) has a video that is worth watching as it explains how the accessibility of products we design and develop affect disabled peoples lives in a variety of ways. [Video - It's our passion, joy, and responsibility to build a great BBC for everyone](https://www.bbc.co.uk/gel/articles/bbc-for-everyone).
-
----
-
-## Task 7 - The Style Guide
-
-In your pages folder you will find `style-guide.html`. This is a standalone style guide for your site. 
-
-Edd Sowden writing for [GOV.UK](https://gdstechnology.blog.gov.uk/2014/12/11/govuk-living-style-guide/) says...
-
->When trying to develop a site with a consistent look and feel it’s common to [develop a style guide](https://24ways.org/2011/front-end-style-guides/) with patterns which can be reused across the site. This lets designers easily reuse standard patterns and lets developers know how to make things look.
-
-Edit `style-guide.html` to:
-
-- Add the hex codes for your chosen colours to the swatches.
-- Add your Google Font(s) to the page.
-
-See prompts and comments on the page to guide you.
-
-Save `style-guide.html` and view in the browser. Test and review your font and colour choices.
-
----
-**Video** - [Using coolors.co for your colour scheme and apply colours and Google fonts to your styleguide](https://www.youtube.com/watch?v=c5EGMwk8SR0).
 
 ---
 

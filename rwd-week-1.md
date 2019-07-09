@@ -41,6 +41,6 @@ It is important that your portfolio includes original media. Everyone has a came
 
 ## Notes
 
-**Try to have your text ready for Week Two and images for Week Three.**
+Try to have your text ready for Week Two and images for Week Three.
 
 As the project proceeds students often decide to *upgrade* (improve) their text and images before the final submission. You don't have to stick with the content created in initial weeks.
