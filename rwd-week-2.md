@@ -6,11 +6,11 @@ You are going to develop a single page portfolio. This one page introduces you t
 
 ## Contents
 
-* [Task 1 - Getting started](##Task-1---Getting-started)
-* [Task 2 - Review of HTML template](##Task-2---Review-of-HTML-template)
-* [Task 3 - Adding your content and metadata](##Task-3---Adding-your-content-and-metadata) 
-* [Task 4 - The CSS re-set](##Task-4---The-CSS-re-set)
-* [Task 5 - Selecting & adding Google Fonts](##Task-5---Selecting-&-adding-Google-Fonts)
+* [Task 1 - Getting started](#Task-1---Getting-started)
+* [Task 2 - Review of HTML template](#Task-2---Review-of-HTML-template)
+* [Task 3 - Adding your content and metadata](#Task-3---Adding-your-content-and-metadata) 
+* [Task 4 - The CSS re-set](#Task-4---The-CSS-re-set)
+* [Task 5 - Selecting & adding Google Fonts](#Task-5---Selecting-&-adding-Google-Fonts)
 
 ## Task 1 - Getting started
 
@@ -84,7 +84,7 @@ Apply html *tags* to your content. Remember to use headings, paragraphs, links, 
 - Create space with `<p>`, don't have big blocks of text (a single paragraph).
 - Use lists and tables if appropriate.
 
-
+> **No CSS** - at this point do not apply any CSS. With your browser at mobile size, view your content as you apply the html. Your browser will apply its default styles. The page should display reasonably well with these styles. You will apply you own styling later.  
 
 ### Metadata
 
@@ -96,17 +96,18 @@ In the `<head>` of your page you have the three important elements of metadata:
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 ```
-For a deeper understanding of the meta viewport tag read - [Using the viewport meta tag to control layout on mobile browsers(https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag)].
+For a deeper understanding of the meta viewport tag read the MDN article - [Using the viewport meta tag to control layout on mobile browsers](https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag).
 
 #### The `<title>` element
 
 `<title>` is not strictly a meta tag, but this is valuable metadata about your page/site. 
+
 ```
 <title>NEVER forget to write a good page title</title>
 ```
 Write a title that clearly describes your page/site. As this is a personal portfolio it should probably contain your name. 
 
-For advice on **writing a good page title** read [the Title Tag article on MDN](https://moz.com/learn/seo/title-tag).
+Read this advice on **writing a good page title** - [the Title Tag article on MDN](https://moz.com/learn/seo/title-tag).
 
 #### The Meta Description
 
@@ -124,7 +125,7 @@ Neither your title, meta description or your main heading should contain the wor
 
 ## Before you go further
 
->[Validate your HTML coding](https://validator.w3.org/#validate_by_upload). Fix any problems.
+>[Validate your HTML coding](https://validator.w3.org/#validate_by_upload). Fix any problems continuing.
 
 ---
 
