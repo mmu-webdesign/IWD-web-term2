@@ -10,7 +10,7 @@ You are going to develop a single page portfolio. This one page introduces you t
 * [Task 2 - Review of HTML template](#Task-2---Review-of-HTML-template)
 * [Task 3 - Adding your content and metadata](#Task-3---Adding-your-content-and-metadata) 
 * [Task 4 - The CSS re-set](#Task-4---The-CSS-re-set)
-* [Task 5 - Selecting & adding Google Fonts](#Task-5---Selecting-&-adding-Google-Fonts)
+* [Task 5 - Selecting and adding Google Fonts](#Task-5---Selecting-and-adding-Google-Fonts)
 
 ## Task 1 - Getting started
 
@@ -164,7 +164,7 @@ Remember to add comments as you further develop your CSS to ensure developers (a
  ```
 ---
 
-## Task 5 - Selecting & adding Google Fonts
+## Task 5 - Selecting and adding Google Fonts
 
 Web Fonts offers a much wider array of options beyond the basic web safe font families. It is now possible create or buy Web Fonts to enhance the design of your site. Google Fonts provides a free and easy to use option. 
 
