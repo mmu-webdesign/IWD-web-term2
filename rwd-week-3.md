@@ -12,17 +12,17 @@ Before you proceed use the check list found at the bottom of Week Two. Have you 
 
 * [Task 1 - Adding a responsive column](#Task-1---Adding-a-responsive-column)
 * [Task 2 - Add the 'big header'](#Task-2---Add-the-'big-header')
-* [Task 3 - Adding your content and metadata](#Task-3---Adding-your-content-and-metadata) 
-* [Task 4 - The CSS re-set](#Task-4---The-CSS-re-set)
-* [Task 5 - Selecting and adding Google Fonts](#Task-5---Selecting-and-adding-Google-Fonts)
-* [Task 6 - Selecting a colour scheme](#Task-6---Selecting-a-colour-scheme)
-* [Checklist](#Week-2-Checklist)
+* [Task 3 - Background colours](#Task-3---Background-colours) 
+* [Task 4 - Styling the footer](#Task-4---Styling-the-footer)
+* [Checklist](#Week-3-Checklist)
 
 ---
 
 ## Task 1 - Adding a responsive column
 
 Use the [CSS styles in this CodePen](https://codepen.io/wilsondmmu/pen/PJQYZG) to create the responsive column of content as illustrated in the lecture. Apply these styles by creating the class `.container-content`.
+
+> What we are attempting to create is a column of content that works well on mobile, and when at desktop sizes, does not become so wide that it creates an uncomfortable reading length.
 
 Add the class and styles to `layout.css` under the comment: 
 
@@ -51,7 +51,7 @@ Adjust the padding to best fit your font size and layout.
 
 #### Width
 
->**Note** - Adjust the **width** with your browser window at a normal desktop size.
+> Adjust the **width** with your browser window at a normal desktop size.
 ```
 max-width: 600px;
 ```
@@ -67,6 +67,8 @@ There's more information about why we do this and how it works at this [codepen
 >Read this [short article on line length by Matthew Butterick](https://practicaltypography.com/line-length.html).
 
 Finally, check your page at mobile size. Is your font size for text and headings, or your line height causing any issues? Does your content work in this narrow column? Adjust padding or margins as required. **Note** that we will sort out the header and footer soon.
+
+> If your column of content at desktop size looks narrow increase the font size of your paragraph text. Experiment to create a good balance, always checking both mobile and desktop.
 
 You can comment out `* { border:1px solid red; } ` if applied (but it is handy for the next section).
 
@@ -142,7 +144,7 @@ You should remove `font-size: 1.35rem` and might consider creating specific styl
 ```
 This style targets the `<h1>` in the `<header>`. Adjust this style to work on mobile. A smaller value `line'height` is good if your header wraps on mobile and `margin-bottom` ensure a gap is retained between the heading and paragraph.  
 
-The final section of code provides a very neat solution for creating a button out of the `<a>` element. **Why?** You may want to add a *call to action*. This may be a direct link to your form - *contact me* or perhaps a request to *download your cv (pdf)*.
+The final section of code provides a very neat solution for creating a button out of the `<a>` element. **Why?** You may want to add a *call to action*. This may be a direct link to your form - *contact me* or perhaps to your *about me* section.
 
 ```
 .header-content a {
@@ -158,13 +160,12 @@ The final section of code provides a very neat solution for creating a button ou
     font-size: 1rem;
 }
 ```
-If you chose to add a *call to action* this way, edit the above as required. If you don't, you can remove this block of code.
+If you chose to add a *call to action* this way, edit the above as required. If you don't, **you can remove this block of code**.
 
 ---
 
 Video - [Call to action button demonstration](https://youtu.be/s1iEaJGeNdM).
 
----
 
 **Note** - You should have a suitable 'hero' image to add using the CSS background declaration next week.
 
@@ -203,6 +204,8 @@ Target the specific section classes.
 ```
 Test the colour contrast of your foreground (text) and background colours using [Lea Verou's Contrast Ratio checker](https://contrast-ratio.com). 
 
+> **Note** - this does not mean every section needs to be a different colour. Subtle shades are work well. A good tip for students is to think - 'have I ever seen a web page with colours like this before'. If the answer is no, you may need some advice regarding your choice of colours! 
+
 ---
 
 ## Task 4 - Styling the footer
@@ -214,7 +217,8 @@ You are free to style the `<footer>` as you wish. Apply your styles to `layout.c
 ```
 A few notes:
 
-Copying and amending previously used `<header>` styles is a great starting point. It centres our footer content, we can add some height for effect (**NOT `90vh`!**), and we can apply a background colour. Just remember to apply it to the **footer element** not the `.page-header` class.
+Copying and amending previously used `<header>` styles is a great starting point. 
+
 ```
 .page-header {
   background: green;
@@ -224,9 +228,12 @@ Copying and amending previously used `<header>` styles is a great starting point
   justify-content: center;
 }
 ```
+
+It centres our footer content, we can add some height for effect (**NOT `90vh`!**), and we can apply a background colour. Just remember to apply it to `.page-footer` not the `.page-header` class.
+
 If we use a background colour (especially a dark one) then we need to adjust the text colour to ensure good contrast. 
 
-In the footer this also includes link text. When you adjust link colours, remember there are pseudo classes for the four states.
+In the footer this also includes link text. When you adjust link colours, remember there are pseudo classes for the five states. These styles should always be in the following order:
 
 ```
 a:link {
@@ -249,6 +256,9 @@ a:active {
 
 }
 ```
+
+> **Note** - Using the code above will apply styles to every link on the page including links in your menu, your text and the footer). 
+
 If these styles are going to be specific to the footer you will need to add the *element selector* to each rule. For example:
 
 ```
@@ -256,9 +266,10 @@ footer a:link {
 
 }
 ```
-[Further detail on styling links at MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links).
+We suggest you read through the example [styling some links at MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links#Styling_some_links). This item provides a good example that you might want to use to get started.
 
 >"When styling links, it is important to understand how to make use of pseudo-classes to style link states effectively, and how to style links for use in common varied interface features such as navigation menus and tabs." 
+
 
 ---
 
@@ -274,14 +285,12 @@ At the end of this session [validate your HTML](https://validator.w3.org/#valida
 
 Before you start Week 4 - Have you completed everything?
 
-- Task 1 created a flexible column for the content of your `<section>`s. You have adjusted the `padding`, ``max-width`` and other elements to ensure your content looks good in a mobile viewport, but does not let the line length of your text fo beyond 65 characters.
-- In Task 2 you have styled *the big header* by apply the supplied styles, making adjustments as directed.
-- Task 3 asked you to apply background colours. Undertake careful research to find the right palette that reflects the mood and feel you are trying to reflect in your portfolio site.
-- Task four asked you to style the footer, providing advice on approaches.
+- You created a flexible column for the content of your `<section>`s. You have adjusted the `padding`, ``max-width`` and other elements to ensure your content looks good in a mobile viewport, but does not let the line length of your text go beyond (around) 65 characters.
+- You should have styled *the big header* by apply the supplied styles, making adjustments as directed.
+- We asked you to apply background colours. Undertake careful research to find the right palette that reflects the mood and feel you are trying to reflect in your portfolio site.
+- And finally Task 4 asked you to style the footer, providing advice on approaches.
 
-And finally:
-
-- Fix any problems before you continue.
+> Test everything at mobile and desktop widths. Fix any problems before you continue.
 
 **End**
 
