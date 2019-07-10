@@ -14,6 +14,7 @@ You are going to develop a single page portfolio. This one page introduces you t
 * [Task 6 - Selecting a colour scheme](#Task-6---Selecting-a-colour-scheme)
 * [Checklist](#Week-2-Checklist)
 
+---
 
 ## Task 1 - Getting started
 
