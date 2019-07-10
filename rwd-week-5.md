@@ -1,5 +1,16 @@
 # RWD Week Five
 
+## Contents
+
+* [Task 1 - Reviewing the navigation HTML](#Task-1---Reviewing-the-navigation-HTML)
+* [Task 2 - Styling the Navigation with Flexbox](#Task-2---Styling-the-Navigation-with-Flexbox)
+* [Task 3 - Reviewing the form HTML](#Task-3---Reviewing-the-form-HTML) 
+* [Task 4 - The `header-content`](#Task-4---The-`header-content`)
+* [Task 5 Using `figure` &amp; `figcaption`](#Task-5---Using-`figure`-&amp;-`figcaption`)
+* [Task 6 - Introduction to media queries](#Task-6---introduction-to-media-queries)
+* [Task 7 - A responsive image gallery](#Task-7---A-responsive-image-gallery)
+* [Checklist](#Week-4-Checklist)
+
 ## Task 1 - Reviewing the navigation HTML
 
 A quick reminder of the HTML for our navigation.
@@ -15,11 +26,15 @@ A quick reminder of the HTML for our navigation.
 </nav>
 ```
 
-We have a simple unordered list, containing four list elements containing links to the four sections of our page.
+We have a simple `unordered list`, containing four list elements, containing links to the four sections of our page.
 
-Everything is contained in the semantic `<nav>` element. This has a class of `page-nav`. Remember that on a larger project there will inevitably be more than one `nav`.
+Everything is contained in the semantic `<nav>` element. This has a class of `page-nav`. 
 
-### Task 2 - Styling the Navigation with Flexbox
+Yes, we could just target the `nav` element rather than use a class, but on a larger project there will inevitably be more than one `nav`.
+
+---
+
+## Task 2 - Styling the Navigation with Flexbox
 
 There are two approaches to apply these styles. 
 
@@ -56,13 +71,15 @@ Add the following comment - a reminder that we are starting by styling mobile fi
 ```
 
 Let's look at this from bottom up. Both
-`margin: 0;` and `padding: 0;` *zero out* the margins on our list. You should have this already in `layout.css` as part of the initial CSS re-set so you can **delete these styles**.
+`margin: 0;` and `padding: 0;` *zero out* the margins on our list. 
 
 Then `list-style-type: none;` removes the bullets from our list.
 
-Adding `border-top: 1px solid #ddd;` and `border-right: 1px solid #ddd;` is part of a *clever plan* add borders to to each of the menu buttons we are creating.  
+Adding `border-top: 1px solid #ddd;` and `border-right: 1px solid #ddd;` is part of a *clever plan* to add borders to to each of the menu buttons we are creating.  
 
-And then we add `display: flex;` which now means the child items of `<ul>` which are of course all the `<li>` elements. Now `flex` will by default put each of these in a row. 
+And then we add `display: flex;` which now means the child items of `<ul>` which are of course all the `<li>` elements are now flex items.
+
+ Now `flex` will by default put each of these flex items in a row. 
 
 And finally by adding `flex-wrap: wrap;` it ensures our *flexible* menu will wrap onto the next line when our screen size is too small to fit all four of our links.
 
@@ -86,7 +103,7 @@ Next we apply `flex: 1 1 50%;` to determine how this **flexbox** reacts. This st
 
 In this case `flex-grow` is set to 1, therefore the remaining space in the container will be distributed equally to all children. 
 
-Next is the value for `flex-shrink`. 
+Next is the value for `flex-shrink`, again set to 1. 
 
 >The `flex-shrink` CSS property sets the flex shrink factor of a flex item. If the size of flex items is larger than the flex container, items shrink to fit according to flex-shrink. [MDN `flex-shrink`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink).
 
@@ -117,13 +134,17 @@ We start by adding `padding: 15px 10px;` to the `anchor` elements. Again we appl
 
 Then applying `text-decoration: none;` removes the lines from under our links.
 
-As with our `header` content apply use both `align-items: center;` and `justify-content: center;` to get our text into the centre of our button.
+As with our `header` content, we apply both `align-items: center;` and `justify-content: center;` to get our text into the centre of our button.
 
-Next `flex: 1 1 auto;` applies values for `flex-grow`, `flex-shrink` and `flex-basis`. This time the `flex-basis` is set at `auto` to *automatically* space the items (in this case the `<a>`) out based on the `flex-grow` value (in this case `1` there each `<a>` gets the same space).
+Next `flex: 1 1 auto;` applies values for `flex-grow`, `flex-shrink` and `flex-basis`. This time the `flex-basis` is set at `auto` to *automatically* space out the items (in this case the link the text) and  `flex-grow` has a value of `1` to ensure each `<a>` gets the same space.
 
 The last line `transition: all 0.2s ease;` is a simple transition which applies the `hover` we apply in the next style rule.
 
+> You can adjust the transition speed to fit your needs.
+
 ### Add a `hover` effect
+
+Next is a simple `hover` effect applying both background and foreground (the font) colours.
 
 Add the following:
 
@@ -133,11 +154,14 @@ Add the following:
   color: #000;
 }
 ```
-A simple `hover` effect applying both background and foreground (the font) colours.
 
 ### Colours
 
 You can apply a background colour for your buttons via `.page-nav li`. You will also need to adjust all `border`s and select a subtle contrasting colour for the `hover` effect.
+
+As with the footer, you may need to target all of the other link states with pseudo links to ensure you have good colour contrast.
+
+Remeber they must be in order `:link — :visited — :hover — :active`.
 
 ### Media query for a responsive menu
 
