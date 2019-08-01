@@ -388,7 +388,7 @@ As we want our gallery to make more use of the screen space we should make the g
 ```
 Save and review your page. At desktop size the gallery now uses more space across the page than the rest of your content. We've chosen a `max-width` of `1200px` as it will later give us room to display our gallery in three boxes across the page. You can adjust this as best fits your design later.
 
->**Note** - make use of the space. Quite often we find students end up with very small images, ignoring the space available.
+>**Note** - Quite often we find students end up with very small images and/or a small gallery. MAKE USE OF THE SPACE AVAILABLE. 
 
 Use the following to centre the section header.
 
@@ -446,7 +446,9 @@ Replace the red border with `display: flex;`
 
 }
 ```
-Save and view your page. As soon as you reach the 500px width our `flex` items (our images and captions) line up next to each other. Whilst it looks a bit rubbish (500px is too small) this is fantastic news. One line of code - `display:flex` has enabled this. In the past, this was only achieved by fudges and hacks in CSS.
+Save and view your page. As soon as you reach the 500px width our `flex` items (our images and captions) line up next to each other. Whilst it looks a bit rubbish (500px is too small) this is fantastic news. 
+
+>One line of code - `display:flex` has enabled this. In the past, this was only achieved by fudges and hacks in CSS.
 
 Adjust the `min-width` at which our media query kicks in - `@media screen and (min-width: 750px)` will work. You might want to adjust this a little later.
 
@@ -511,7 +513,7 @@ For this we use the Adjacent sibling combinator.
 >The adjacent sibling combinator (+) separates two selectors and matches the second element only if it immediately follows the first element, and both are children of the same parent element. See [MDN Adjacent sibling combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator).
 
 
-Save and reload. Your gallery should look something like Derren's CodePen - [Breakpoints and media queries](https://codepen.io/wilsondmmu/pen/mvVWVj).
+Save and reload. Your gallery should look something like [Derren's CodePen - Breakpoints and media queries](https://codepen.io/wilsondmmu/pen/mvVWVj).
 
 **If you want more than three images, you will need to add `flex-wrap:wrap` and modify the code as in the codepen above.**
 
@@ -536,7 +538,7 @@ If it doesn't, check that you have been putting this code within the media query
 ```
 ### Your design
 
-Once the gallery is working you can make adjustments to best fit your design. This might include dimensions, colours, padding and margins.
+Once the gallery is working you can make adjustments to best fit your design. This might include dimensions, colours, padding and margins. *Remember, start mobile first*. 
 
 ### Your images
 
@@ -564,7 +566,7 @@ At the end of this session [validate your HTML](https://validator.w3.org/#valida
 - Task 4 focussed on the heading and tagline. Adjusting them for improved readability.
 - Task 5 improved the semantics of your gallery with `figure` &amp; `figcaption`.
 - Task 6 provided an introduction to media queries.
-- The final task used a media query and flexbox to create a responsive gallery.
+- The final task used a media query and flexbox to create a responsive gallery - 1 column to 3 columns.
 
 And finally:
 

@@ -202,21 +202,25 @@ Let's start by reviewing the HTML of your form:
 ```
 <form action="https://formspree.io/[your email address goes here]" method="post">
 ```
-For your project we are using the `formspree` service to process input from your form. This would usually be done by scripting but that is beyond this unit. Simple change from:
+For your project we are using the `formspree` service to process input from your form. This would usually be done by scripting but that is beyond this unit. 
+
+Simply change from this...
+
 ```
 https://formspree.io/[your email address goes here]
 ```
-to...
+To this, using your email address of course!
+
 ```
 https://formspree.io/fred.bloggs@stu.mmu.ac.uk
 ```
-using your email address of course!
+
 
 Next we have each input field for our form.
 ```
 <p>
     <label for="contact-name">Your Name</label>
-    <input id="contact-name" type="text" name="contact-name" />
+    <input id="contact-name" type="text" name="contact-name">
 </p>
 ```
 You can see visually in your browser how the label *Your name* sits by the relevant field. We wrap our label in the `<label>` element rather than a paragraph or such for better accessibility.

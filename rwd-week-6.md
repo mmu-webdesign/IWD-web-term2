@@ -4,21 +4,47 @@ Tips, advice and resources for checking your work.
 
 ## Things to check when going through our instructions
 
-* Have you added the responsive image CSS? It should look something like this:
+### Checking your CSS
+* Did you add the responsive image CSS? It should look something like this:
 
-``` img { max-width: 100%; height: auto; } ```
+``` 
+img { max-width: 100%; height: auto; } 
+```
 
 * Have you added the border-box model code? You can [find the border-box model code on this website](https://www.paulirish.com/2012/box-sizing-border-box-ftw/) just after the sentence that says 'I have a recommendation for your CSS going forward...'
 
 * Do you have a line in your CSS like this?
 
-``` div {max-width: 600px; margin: 0 auto; padding: 0 15px;} ```
+``` 
+div {max-width: 600px; margin: 0 auto; padding: 0 15px;} 
+```
 
 If so, **change it**: it should only be applying to `.container-content`, not all `div` elements
 
-* Have you added some padding back in to your `p` tags so that new paragraphs are separated from the ones preceding them? Something like `.about-me p {padding-bottom: 13px;}` would work - remember to do this for each section with a series of paragraphs
+### Paragraphs
 
-* Have you added padding to your sections? The page can look cramped if you let the sections follow immediately after each other.
+Make sure there is some *breathing space* between paragraphs.
+
+We often see dark blocks of text like this (and larger):
+
+>In another moment down went Alice after it, never once considering how in the world she was to get out again.
+The rabbit-hole went straight on like a tunnel for some way, and then dipped suddenly down, so suddenly that Alice had not a moment to think about stopping herself before she found herself falling down a very deep well.
+
+Rather than...
+
+>In another moment down went Alice after it, never once considering how in the world she was to get out again.
+>
+>The rabbit-hole went straight on like a tunnel for some way, and then dipped suddenly down, so suddenly that Alice had not a moment to think about stopping herself before she found herself falling down a very deep well.
+
+You can also target specific paragraphs with styles like `.about-me p {padding-bottom: 13px;}` 
+
+### Margins and padding
+
+Have you added padding to your sections? The page can look cramped if you let the sections follow immediately after each other.
+
+>**Tip** - Derren prefers to set margin's to zero and adjust padding in most cases. This keeps things simpler in most cases.
+
+Remember to keep text away from edges. Text running up against borders/edges is hard to read.
 
 
 ## Browser resources
@@ -41,9 +67,15 @@ If so, **change it**: it should only be applying to `.container-content`, not al
 
 *   [A good introduction from MDN about how to organise your work](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files).   
 
-*   We want your html page to be called index.html  
+>We want your html page to be called **index.html** - it's always suprising how many students miss this! 
 
-**If you use a windows computer, read this:** On Windows computers, you might have trouble seeing the file names, because Windows has an option called Hide extensions for known file types turned on by default. Generally you can turn this off by going to Windows Explorer, selecting the Folder options... option, unchecking the Hide extensions for known file types checkbox, then clicking OK. For more specific information covering your version of Windows, you can search on the web.
+## MS Windows
+
+**If you use a windows computer, read this:** 
+
+>File extensions - .html .css .js .pdf
+
+On Windows computers, you might have trouble seeing the file names, because Windows has an option called Hide extensions for known file types turned on by default. Generally you can turn this off by going to Windows Explorer, selecting the Folder options... option, unchecking the Hide extensions for known file types checkbox, then clicking OK. For more specific information covering your version of Windows, you can search on the web.
 
 ## Check list
 
@@ -56,7 +88,7 @@ If so, **change it**: it should only be applying to `.container-content`, not al
 -   Metadata - page title and meta description relevant to your portfolio.
 -   Design - attractive, appropriate use of typography, design and colour. 
 -   Mobile first approach to CSS and media queries.
--   Step by step implementation of CSS including flexbox for layout.
+-   Step by step implementation of the required CSS including flexbox for layout.
 -   Efficient (read minimal) CSS.
 -   Credit any lines of non-original CSS.
 -   Additional elements may include extended layout (for example putting your about section (text/media) into columns or rows with flexbox or floats. Placement of social media icons, perhaps a home-made icon and such to enhance your page.

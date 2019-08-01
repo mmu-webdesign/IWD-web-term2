@@ -1,7 +1,8 @@
-DTS students · Introduction to Web Development unit  
-# Adding the JavaScript
+# RWD Week Six
 
-## Adding the time-based message code
+## Adding the JavaScript
+
+### Adding the time-based message code
 
 * The [initial state of the code is available on this codepen](https://codepen.io/wilsondmmu/pen/43ef68f25d5275d02fa51d9e0298b419).
 * There are two ways of adding the initial code, inline or as a separate JavaScript file
