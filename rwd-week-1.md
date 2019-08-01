@@ -39,6 +39,38 @@ It is important that your portfolio includes original media. Everyone has a came
 
 - Remember to keep the full size original images - always edit copies.
 
+## Copyright
+
+### Images
+
+As a developer you should be aware of how copyright affects your work.
+
+Many students mistakenly feel that they can use any image that they find through Google in their own work. Most images will be copyright protected, meaning you would need permission of the owner before using anything you find.
+
+We are encouraging you to create and use your own media. If you do use a non-original image then we would like you to use [a free hero image from Unsplash](https://unsplash.com/search/photos/hero-image) because we know these are copyright free.
+
+You should always credit the creator.
+
+### Code
+
+It is too easy to use someone elses code. We expect you to develop your own code (based on what we supply) because you are trying to learn the basics of HTML, CSS and little JavaScript. Copying and pasting won't help.
+
+If you feel you want to use someone elses code you need to find out if you can explicitly do this.
+
+Code that can be shared often has explicit instructions in comments. Much code is open source but you need to check. Likewise most code in online tutorials is free to use.
+
+* As a student you should only use code that explicitly allows re-use.
+* You must credit the author/source.
+* You should only use code you understand - tutors will not debug it for you.
+* You must not use code from another students submission.
+
+Finally you should evaluate the efficiency of any code you use. Is it well written or does it take a hundred lines to do what should be done in 5 lines?
+
+For more information on Copyright read the UK government's document - [Copyright Notice: digital images,
+photographs and the internet](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/481194/c-notice-201401.pdf) 
+
+It is also worth learning about [Creative Commons](https://creativecommons.org/) and how this can be used to share and protect your own creative output. Watch the [Creative Commons introduction video on YouTube](https://youtu.be/dPZTh2NKTm4).
+
 ## Notes
 
 Try to have your text ready for Week Two and images for Week Three.
