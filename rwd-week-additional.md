@@ -8,16 +8,12 @@ Some of our more *technical* students ask what more can they do.
 
 The usual response from many such students is to add technical complexity, usually via JavaScript. This is often not successful because these technical solutions are often implemented *for the sake of it*, and fail to enhance the user experience. In fact they often degrade the users experience and lose the student marks.
 
----
-
 ## Rule of thumb
 
 Any further enhancements (elements beyond the brief):
 
 1. User Experience - Must not damage the user experience, and hopefully improve it.
 1. Accessibility - Must not impede accessibility and again, hopefully improve it.
-
----
 
 We make the following suggestions for elements you might want to investigate and implement (through research and experimentation).
 
@@ -27,8 +23,6 @@ Complete the site as per the brief before attempting to create additional elemen
 
 Do not remove elements created by the brief as you will be marked on these. It's obviously pointless adding something yet losing marks for the basics (because you deleted it).
 
----
-
 ## Additional HTML elements
 
 Good, clean mark-up of your content is always going to get your marks. Using relevant HTML such as lists and tables (remember, tabular data only), blockquotes and such show your competence if used correctly.
@@ -37,27 +31,21 @@ Good, clean mark-up of your content is always going to get your marks. Using rel
 
 Additional CSS can be used to style these elements in an attractive, professional manner. See below.
 
----
-
 ## Enhanced media query
 
 Once you have implemented the media queries as required, you could consider making further adjustments. An example might be that your main heading uses a different font size on larger screen sizes. It might be the same for your picture headings and captions. Margins might change. Always think about usability. *Am I enhancing the users experience*? In this example, am I make it more legible at these different screen sizes?
 
 Don't go overboard - changing the colour scheme from mobile to desktop. Things like this are usually pointless.
 
----
-
 ## CSS Blends 
 
 Investigate further use of blends to enhance your design. 
 
----
 
 ## CSS Transitions and animation
 
 Investigate transitions and animation on MDN and CSS Tricks. Successful implementations are usually very subtle (not a rolling ball or animated text). Use with care.
 
----
 
 ## CSS Grid
 
@@ -69,7 +57,6 @@ If you chose to go the whole way and restructure the site using grid, make sure 
 
 For everything about CSS Layout - see [Rachel Andrew's Grid by example](https://gridbyexample.com/).
 
----
 
 ## Responsive menu
 
@@ -79,25 +66,22 @@ Think carefully though any solution - it needs to be as good, or an improvement 
 
 >If it is not your code, you must credit the source in a comment. **Don't** use code you don't understand.
 
----
 
 ## Form styling
 
 Further form styling beyond what has already been implemented in the tutorial.
 
----
 
 ## Footer styling
 
-Enhancing the footer styles, addition of relevant social links/icons.
+Enhancing the footer styles - does it work well at all sizes? Addition of relevant professional company, social links or icons?
 
----
 
 ## Social
 
 You can add links to your professional social media accounts. This is usually done via clickable icons. Use a [site like iconmonstr](https://iconmonstr.com/) to customise and download a png file, or to embed inline code for an svg.
 
-If you use a png, resize the largest size used on your site.
+If you use a png, optimise the file to the largest size used on your site.
 
 SVG is an excellent option because it is purely code (no image file needed). This means it is lightweight and flexible - it can scale to any size.
 
@@ -111,8 +95,6 @@ Read: [MDN Styling Tables](https://developer.mozilla.org/en-US/docs/Learn/CSS/St
 
 Check that your table works on mobile. Your table will be small so it shouldn't be a big issue. Large tables are a different matter - see the [Responsive Table roundup on CSS Tricks](https://css-tricks.com/responsive-data-table-roundup/) for some suggestions. 
 
----
-
 ## Video hero
 
 A popular technique is to use a short, repeating, movie clip as the hero image. On a positive note, these can add to the user experience by helping to scene set or explain the page or product.
@@ -120,8 +102,6 @@ A popular technique is to use a short, repeating, movie clip as the hero image. 
 Like the large hero image they can add drastically to the weight of the page.
 
 >[To add a Video Header follow this additional tutorial created by Derren](https://github.com/mmu-webdesign/IWD-web-term2/blob/master/rwd-week-video.md). 
-
----
 
 ## Original illustrations
 
@@ -133,14 +113,17 @@ Make sure it is clear in your commentary that these are original works by yourse
 
 >If you are taking this route, please discuss with tutors in class. 
 
----
-
 ## Personal logo
 
 Further to the above, branding your page with a personal logo is another option for the creative student.
 
----
 
 ## JavaScript
 
-If you do think you can enhance the user expereince of this simple page with additional JavaScript (beyond the required elements), please discuss with tutors before going ahead.
+If you do think you can enhance the user experience of this simple page with additional JavaScript (beyond the required elements), please discuss with tutors before going ahead.
+
+## Anything else?
+
+Talk to tutors in class about any further ideas you may have for the additional development of your page.
+
+Remember - just completing the assignment as directed to a high standard will gain you a very good, possibly excellent mark.
