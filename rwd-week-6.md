@@ -46,6 +46,18 @@ Have you added padding to your sections? The page can look cramped if you let th
 
 Remember to keep text away from edges. Text running up against borders/edges is hard to read.
 
+## SEO - your content
+
+On-site SEO refers to optimizing both the content and HTML source code of a page. The content you have created will also add to the value and 'findability' of your site.
+
+The [MOZ SEO Guide](https://moz.com/learn/seo/on-site-seo) explains:
+
+- **In-depth**."Thin" content was one of Google Panda's specific targets; today it's more or less assumed that content must be sufficiently thorough in order to stand a good chance at ranking.
+- **User-friendly**. Is the content readable? Is it organized on your site in such a way that it's easily navigable? Is it generally clean, or littered with ads and affiliate links?
+- **Unique**. If not properly addressed, content duplicated from elsewhere on your site (or elsewhere on the Internet) may impact a site's ability to rank on SERPs.
+- **Authoritative and trustworthy**. Does your content stand on its own as a reliable resource for information on a particular topic?
+- **Aligned with user search intent**. Part of creating and optimizing for quality content is also delivering on searcher expectations. Content topics should align with the search queries for which they rank.
+
 
 ## Browser resources
 
@@ -115,7 +127,9 @@ On Windows computers, you might have trouble seeing the file names, because Wind
 
 ## CSS file order
 
-Here's how I like to do it:
+Your CSS file can become rather long and complicated. It's not uncommon to start adding styles at the end that overwrite earlier styles!
+
+Derren gives you some tips on how he approaches the oder of his CSS files.
 
 - Resets
 - Very basic styles for elements (e.g. h1, h2, p): nothing too opinionated though - no colours or styling
@@ -128,11 +142,5 @@ Here's how I like to do it:
 - The last thing in the stylesheet will probably be the footer.
 - Use lots of comments in your stylesheet that break up the code and label the page sections.
 
-
-## Fonts and colours
-
-- Layouts designed with google fonts
-- The best google fonts according to Typewolf
-Coolors
 
 [Return to the Top](#contents)
