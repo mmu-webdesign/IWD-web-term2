@@ -93,6 +93,17 @@ Enhancing the footer styles, addition of relevant social links/icons.
 
 ---
 
+## Social
+
+You can add links to your professional social media accounts. This is usually done via clickable icons. Use a [site like iconmonstr](https://iconmonstr.com/) to customise and download a png file, or to embed inline code for an svg.
+
+If you use a png, resize the largest size used on your site.
+
+SVG is an excellent option because it is purely code (no image file needed). This means it is lightweight and flexible - it can scale to any size.
+
+Want to know more about SVG? Read the [MDN guide to Adding vector graphics to the Web](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web).
+
+
 ## Styled tables
 If you have used a table in your content (perhaps a list of job titles, employers and years?), you can then use CSS to style what will otherwise be a bring table.
 
