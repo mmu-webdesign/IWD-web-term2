@@ -49,6 +49,8 @@ Remember to keep text away from edges. Text running up against borders/edges is 
 
 ## Browser resources
 
+We have introduced you to Dev Tools in the browser. Here are some further browser resources.
+
 *   [The web developer toolbar for firefox and chrome](https://chrispederick.com/work/web-developer/)  
 
 *   [Introduction to the chrome dev tools](https://developers.google.com/web/tools/chrome-devtools/)  
@@ -59,15 +61,21 @@ Remember to keep text away from edges. Text running up against borders/edges is 
 
 ## Live preview and mobile preview
 
+You can use Prepros to set up  a developer environment on your laptop. Prepros reloads your mobile browser automatically every time you save a file in code editor.
+
 *   [Prepros.io](https://prepros.io/)  
 
 *   [Using live preview with Prepros](https://prepros.io/help/live-preview)
 
 ## Files and folders
 
+An important aspect of web development is file management. A clean, well structured site is essential.
+
 *   [A good introduction from MDN about how to organise your work](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files).   
 
 >We want your html page to be called **index.html** - it's always suprising how many students miss this! 
+
+You should use and maintain the folder structure provided. If all of your files are sitting on the root of your site, there is something wrong!
 
 ## MS Windows
 
@@ -104,27 +112,6 @@ On Windows computers, you might have trouble seeing the file names, because Wind
 -   Are all of your images optimised for the web?
 -   Colour contrast - have you made the right choices with your colours?
 -   SEO - have you written good metadata and content with SEO in mind? See [Shaun Anderson's SEO tutorial for some good advice](https://www.hobo-web.co.uk/seo-tutorial/#page-title-element).  
-
-## More flexbox
-
-### Flexbox games
-
-- [Flexbox froggy](http://flexboxfroggy.com/)
-- [Flexbox defense](http://www.flexboxdefense.com/)
-
-
-### CSS selectors: what are they?
-
-- [CSS Diner game to learn CSS selectors](http://flukeout.github.io/)
-- [CSS selectors at MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
-- [CSS selectors at CSS tricks](https://css-tricks.com/how-css-selectors-work/)
-
-
-### Flexbox without flexbox
-
-We are getting into the area of supporting older browsers. You don't have to do this with your assignment, but if you're interested, here's some examples of how to produce flexbox-like layouts without flexbox.
-
-
 
 ## CSS file order
 

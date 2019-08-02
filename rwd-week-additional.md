@@ -57,6 +57,7 @@ If you chose to go the whole way and restructure the site using grid, make sure 
 
 For everything about CSS Layout - see [Rachel Andrew's Grid by example](https://gridbyexample.com/).
 
+Article: [Quick! What’s the Difference Between Flexbox and Grid](https://css-tricks.com/quick-whats-the-difference-between-flexbox-and-grid/)?
 
 ## Responsive menu
 
@@ -66,10 +67,33 @@ Think carefully though any solution - it needs to be as good, or an improvement 
 
 >If it is not your code, you must credit the source in a comment. **Don't** use code you don't understand.
 
+## Flexbox
+
+Flexbox can get much more complicated. Be careful not to over complicate your code for the sake of it.
+
+Learn more about Flexbox:
+
+- [Flexbox froggy](http://flexboxfroggy.com/)
+- [Flexbox defense](http://www.flexboxdefense.com/)
+- [A complete guide to Flexbox from CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+### Flexbox without flexbox
+
+We are getting into the area of supporting older browsers. You don't have to do this with your assignment, but if you're interested read MDN's article [Backwards Compatibility of Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Backwards_Compatibility_of_Flexbox).
+
+## CSS selectors
+
+You can improve your CSS and make it much more efficient with careful use of selectors.  
+
+Learn more aboput selectors:
+
+- [CSS Diner game to learn CSS selectors](http://flukeout.github.io/)
+- [CSS selectors at MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
+- [CSS selectors at CSS tricks](https://css-tricks.com/how-css-selectors-work/)
 
 ## Form styling
 
-Further form styling beyond what has already been implemented in the tutorial.
+Further form styling beyond what has already been implemented in the tutorial. Make it look cool, inviting and easy to use (whilst keeping it accessible).
 
 
 ## Footer styling
