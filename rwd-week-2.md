@@ -109,9 +109,8 @@ For a deeper understanding of the meta viewport tag read the MDN article - [Usin
 ```
 <title>NEVER forget to write a good page title</title>
 ```
-Write a title that clearly describes your page/site. As this is a personal portfolio it should probably contain your name. 
 
-Read this advice on **writing a good page title** - [the Title Tag article on MDN](https://moz.com/learn/seo/title-tag).
+Title - The homepage `<title>` should set a content for the whole site. It can be expanded upon in the meta description. This is easy if you are the BBC or Nike, or your name is fairly distinctive (Richard Eskins?). Otherwise this can be tough. Any sub-pages should start *function first*, for example `Contact - Richard Eskins`. To understand the importance of the title read the [the MOZ SEO Guide to the title tag](https://moz.com/learn/seo/title-tag).
 
 #### The Meta Description
 
@@ -121,7 +120,7 @@ Write a good description that compliments and expands on your title.
 ```
 <meta name="description" content="Add your meta description here">
 ```
-Again, there is a good MDN article on the [Meta Description element and SEO good practices](https://moz.com/learn/seo/meta-description).
+As this is the homepage, the description should reflect the site as a whole. Descriptions between 50–300 characters. For a deeper understanding see [the MOZ SEO Meta Description Guide](https://moz.com/learn/seo/meta-description).
 
 #### A plea from us...
 
