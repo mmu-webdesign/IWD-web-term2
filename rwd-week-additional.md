@@ -19,9 +19,35 @@ We make the following suggestions for elements you might want to investigate and
 
 Complete the site as per the brief before attempting to create additional elements.
 
+## IMPORTANT
+
 >Please back up your site - keep a copy of the *finished* site.
 
-Do not remove elements created by the brief as you will be marked on these. It's obviously pointless adding something yet losing marks for the basics (because you deleted it).
+>Do not remove elements created by the brief as you will be marked on these. It's obviously pointless adding something yet losing marks for the basics (because you deleted it).
+
+## Additional
+
+The following are suggested areas of enhancement. None are mandatory for this assignment. We would not expect a student to implement everyone of these suggestions. 
+
+All of these elements expand beyond the taught unit. Always talk to tutors to get support and guidance.
+
+* [Additional HTML elements](#Additional-HTML-elements)
+* [Enhanced media query](#Enhanced-media-query)
+* [CSS Blends ](#CSS-Blends)
+* [CSS Transitions and animation](#CSS-Transitions-and-animation)
+* [CSS Grid](#CSS-Grid) 
+* [Responsive menu](#Responsive-menu)
+* [More flexbox](#More-flexbox)
+* [Flexbox without flexbox](#Flexbox-without-flexbox)
+* [CSS selectors](#CSS-selectors)
+* [Form styling](#Form-styling)
+* [Footer styling](#Footer-styling)
+* [Styled tables](#Styled-tables)
+* [Video hero](#Video-hero)
+* [Original illustrations](#Original-illustrations)
+* [Personal logo](#Personal-logo)
+* [JavaScript](#javascript)
+* [Anything else?](#Anything-else?)
 
 ## Additional HTML elements
 
@@ -67,7 +93,7 @@ Think carefully though any solution - it needs to be as good, or an improvement 
 
 >If it is not your code, you must credit the source in a comment. **Don't** use code you don't understand.
 
-## Flexbox
+## More flexbox
 
 Flexbox can get much more complicated. Be careful not to over complicate your code for the sake of it.
 
@@ -99,17 +125,6 @@ Further form styling beyond what has already been implemented in the tutorial. M
 ## Footer styling
 
 Enhancing the footer styles - does it work well at all sizes? Addition of relevant professional company, social links or icons?
-
-
-## Social
-
-You can add links to your professional social media accounts. This is usually done via clickable icons. Use a [site like iconmonstr](https://iconmonstr.com/) to customise and download a png file, or to embed inline code for an svg.
-
-If you use a png, optimise the file to the largest size used on your site.
-
-SVG is an excellent option because it is purely code (no image file needed). This means it is lightweight and flexible - it can scale to any size.
-
-Want to know more about SVG? Read the [MDN guide to Adding vector graphics to the Web](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web).
 
 
 ## Styled tables
@@ -151,3 +166,5 @@ If you do think you can enhance the user experience of this simple page with add
 Talk to tutors in class about any further ideas you may have for the additional development of your page.
 
 Remember - just completing the assignment as directed to a high standard will gain you a very good, possibly excellent mark.
+
+[Return to the Top](#RWD-Additional)

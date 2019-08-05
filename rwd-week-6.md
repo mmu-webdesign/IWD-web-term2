@@ -4,6 +4,7 @@ Tips, advice and resources for checking your work.
 
 Things to check when going through our instructions
 
+* [Accessibility](#Accessibility)
 * [Checking your CSS](#Checking-your-CSS)
 * [Paragraphs](#Paragraphs)
 * [Margins and padding](#Margins-and-padding)
@@ -14,6 +15,24 @@ Things to check when going through our instructions
 * [Files and folders](#Files-and-folders)
 * [Check list](#Check-list)
 * [Things to do ](#Things-to-do)
+* [Social media *optional](#Social-media)
+
+
+## Accessibility
+
+Check the basics:
+
+- relevant alt text for all images
+- If an image is *fluff* use a null alt
+- colour contrast
+- accessible form (use of 'label for')
+- legibility and readability
+- logical structure
+- use of semantics
+
+More advanced than this unit, but you could use the[ WCAG 2 checklist from WebAIM](https://webaim.org/standards/wcag/checklist). You won't understand everything, and not everything will be relevant to your site, but still worth a look.
+
+If your site is hosted live, you can use the [WebAIM WAVE accessibility evaluation tool](http://wave.webaim.org/). Remember this is only a robot. It will get things wrong and it can't deal with subjective elements, such as how relevant is your alt text. 
 
 ## Checking your CSS
 * Did you add the responsive image CSS? It should look something like this:
@@ -131,13 +150,13 @@ You should use and maintain the folder structure provided. If all of your files 
 -   Step by step implementation of the required CSS including flexbox for layout.
 -   Efficient (read minimal) CSS.
 -   Credit any lines of non-original CSS.
--   Additional elements may include extended layout (for example putting your about section (text/media) into columns or rows with flexbox or floats. Placement of social media icons, perhaps a home-made icon and such to enhance your page.
+-   Additional elements may include extended layout (for example putting your about section (text/media) into columns or rows with flexbox or floats. Placement of social media icons, perhaps a home-made icon and such to enhance your page. [See more under additional](https://github.com/mmu-webdesign/IWD-web-term2/blob/master/rwd-week-additional.md). 
 
 ## Things to do 
 
 -   Run an audit using Dev Tools in Chrome.  
 -   Validation HTML & CSS
--   Accessibility audit (see link below)
+-   Accessibility audit (see links above)
 -   Usability - get friends and family to test you page.  
 
 -   Design - test you design using the 5 second test for designs on colleagues, friends and family - [https://fivesecondtest.com/](https://fivesecondtest.com/) - see [https://www.nngroup.com/articles/testing-visual-design/](https://www.nngroup.com/articles/testing-visual-design/)
@@ -146,6 +165,17 @@ You should use and maintain the folder structure provided. If all of your files 
 -   SEO - have you written good metadata and content with SEO in mind? See [Shaun Anderson's SEO tutorial for some good advice](https://www.hobo-web.co.uk/seo-tutorial/#page-title-element).  
 
 
+## Social media
+
+**Optional** 
+
+You can add links to your professional social media accounts. This is usually done via clickable icons. Use a [site like iconmonstr](https://iconmonstr.com/) to customise and download a png file, or to embed inline code for an svg.
+
+If you use a png, optimise the file to the largest size used on your site.
+
+SVG is an excellent option because it is purely code (no image file needed). This means it is lightweight and flexible - it can scale to any size.
+
+Want to know more about SVG? Read the [MDN guide to Adding vector graphics to the Web](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web).
 
 
-[Return to the Top](#contents)
+[Return to the Top](#RWD-Week-Six)
