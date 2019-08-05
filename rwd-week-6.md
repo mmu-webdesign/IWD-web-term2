@@ -2,9 +2,20 @@
 
 Tips, advice and resources for checking your work.
 
-## Things to check when going through our instructions
+Things to check when going through our instructions
 
-### Checking your CSS
+* [Checking your CSS](#Checking-your-CSS)
+* [Paragraphs](#Paragraphs)
+* [Margins and padding](#Margins-and-padding)
+* [CSS file order](#CSS-file-order)
+* [SEO - your content](#SEO---your-content) 
+* [Browser resources](#Browser-resources)
+* [Live preview and mobile preview](#Live-preview-and-mobile-preview)
+* [Files and folders](#Files-and-folders)
+* [Check list](#Check-list)
+* [Things to do ](#Things-to-do)
+
+## Checking your CSS
 * Did you add the responsive image CSS? It should look something like this:
 
 ``` 
@@ -21,7 +32,7 @@ div {max-width: 600px; margin: 0 auto; padding: 0 15px;}
 
 If so, **change it**: it should only be applying to `.container-content`, not all `div` elements
 
-### Paragraphs
+## Paragraphs
 
 Make sure there is some *breathing space* between paragraphs.
 
@@ -38,13 +49,30 @@ Rather than...
 
 You can also target specific paragraphs with styles like `.about-me p {padding-bottom: 13px;}` 
 
-### Margins and padding
+## Margins and padding
 
 Have you added padding to your sections? The page can look cramped if you let the sections follow immediately after each other.
 
 >**Tip** - Derren prefers to set margin's to zero and adjust padding in most cases. This keeps things simpler in most cases.
 
 Remember to keep text away from edges. Text running up against borders/edges is hard to read.
+
+## CSS file order
+
+Your CSS file can become rather long and complicated. It's not uncommon to start adding styles at the end that overwrite earlier styles!
+
+Derren gives you some tips on how he approaches the order of his CSS files.
+
+- Resets
+- Very basic styles for elements (e.g. h1, h2, p): nothing too opinionated though - no colours or styling
+-Then break the page up into sections and style each one, e.g.
+    - All styles for header
+    - All styles for page sections
+    - All styles for footers
+
+- So that I know if I'm in the middle of the stylesheet, it'll be the CSS for the middle of the page. 
+- The last thing in the stylesheet will probably be the footer.
+- Use lots of comments in your stylesheet that break up the code and label the page sections.
 
 ## SEO - your content
 
@@ -73,7 +101,7 @@ We have introduced you to Dev Tools in the browser. Here are some further browse
 
 ## Live preview and mobile preview
 
-You can use Prepros to set up  a developer environment on your laptop. Prepros reloads your mobile browser automatically every time you save a file in code editor.
+Not for everyone, but worth a try. You can use Prepros to set up  a developer environment on your laptop. Prepros reloads your mobile browser automatically every time you save a file in code editor.
 
 *   [Prepros.io](https://prepros.io/)  
 
@@ -88,14 +116,6 @@ An important aspect of web development is file management. A clean, well structu
 >We want your html page to be called **index.html** - it's always suprising how many students miss this! 
 
 You should use and maintain the folder structure provided. If all of your files are sitting on the root of your site, there is something wrong!
-
-## MS Windows
-
-**If you use a windows computer, read this:** 
-
->File extensions - .html .css .js .pdf
-
-On Windows computers, you might have trouble seeing the file names, because Windows has an option called Hide extensions for known file types turned on by default. Generally you can turn this off by going to Windows Explorer, selecting the Folder options... option, unchecking the Hide extensions for known file types checkbox, then clicking OK. For more specific information covering your version of Windows, you can search on the web.
 
 ## Check list
 
@@ -113,7 +133,7 @@ On Windows computers, you might have trouble seeing the file names, because Wind
 -   Credit any lines of non-original CSS.
 -   Additional elements may include extended layout (for example putting your about section (text/media) into columns or rows with flexbox or floats. Placement of social media icons, perhaps a home-made icon and such to enhance your page.
 
-**Check your work:**  
+## Things to do 
 
 -   Run an audit using Dev Tools in Chrome.  
 -   Validation HTML & CSS
@@ -125,22 +145,7 @@ On Windows computers, you might have trouble seeing the file names, because Wind
 -   Colour contrast - have you made the right choices with your colours?
 -   SEO - have you written good metadata and content with SEO in mind? See [Shaun Anderson's SEO tutorial for some good advice](https://www.hobo-web.co.uk/seo-tutorial/#page-title-element).  
 
-## CSS file order
 
-Your CSS file can become rather long and complicated. It's not uncommon to start adding styles at the end that overwrite earlier styles!
-
-Derren gives you some tips on how he approaches the oder of his CSS files.
-
-- Resets
-- Very basic styles for elements (e.g. h1, h2, p): nothing too opinionated though - no colours or styling
--Then break the page up into sections and style each one, e.g.
-    - All styles for header
-    - All styles for page sections
-    - All styles for footers
-
-- So that I know if I'm in the middle of the stylesheet, it'll be the CSS for the middle of the page. 
-- The last thing in the stylesheet will probably be the footer.
-- Use lots of comments in your stylesheet that break up the code and label the page sections.
 
 
 [Return to the Top](#contents)
