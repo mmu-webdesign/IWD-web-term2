@@ -1,4 +1,4 @@
-# RWD Week Six
+# RWD Week Seven
 
 ## Adding the JavaScript
 
