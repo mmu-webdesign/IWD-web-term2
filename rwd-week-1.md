@@ -1,6 +1,7 @@
 # RWD - Week One
 
 ## Developing content for your portfolio
+
 We need you to start creating content for the 'responsive' portfolio web site you are about to develop over the coming weeks for assignment two.
 
 [Heidi Cohen](https://twitter.com/heidicohen) describes content as:
@@ -9,24 +10,24 @@ We need you to start creating content for the 'responsive' portfolio web site yo
 
 Well written content and high quality media is essential for the success of your portfolio.
 
-### Theme
+### The theme of your content
 
-For simplicity we ask you to develop the content for your portfolio based on yourself and your job.
+For simplicity we’re asking you to develop the content for your portfolio based on yourself and your job.
 
 - **About me** – engaging text to attract and inform the user. Mindful of Search Engine Optimization (SEO), using relevant keywords and such. Tell the reader something about yourself. 150 words maximum. You may want to include links to your social media feeds in this section if you have them.
 
 - **Work experience** – details of your current and previous work experience. Include relevant links and media. 200 words maximum. **NOTE** - If you have no work experience change this section to **Interests** in relation to your course.
 
-However, in recent years some students have created successful pages by making a particular theme from work or home (a hobby) as the focus. If you would prefer to do this, please agree the topic with tutors before proceeding any further.  
+However, in recent years some students have created successful pages by making a particular theme from work or home (a hobby) as the focus. If you would prefer to do this, **please agree the topic with tutors before proceeding any further**.  
 
 ## Original images for the gallery
 
-It is important that your portfolio includes original media. Everyone has a camera in their pocket. Be creative, take some original photos to illustrate your theme and to engage the user.
+It is important that your portfolio includes original media. Everyone has a camera in their pocket: be creative, take some original photos to illustrate your theme and to engage the user.
 
 - Take or create three original images to illustrate things important to you.
-- Usually these are photographs (jpeg format). 
+- Usually these are photographs (jpeg format).
 - If they are illustrations either gif, svg or png formats may be more relevant.
-- If they can all be the same orientation (landscape or portrait) it does make things simpler, but is not essential. 
+- If they can all be the same orientation (landscape or portrait) it does make things simpler, but is not essential.
 - The images can later be sized appropriately and optimized for the web when you know more about the layout you are creating.
 
 >You will require a 4th original image for your 'big banner', often known as the 'hero' image. This is going to be used at a much larger size. It needs to be high quality. It should be landscape. 
@@ -39,13 +40,13 @@ It is important that your portfolio includes original media. Everyone has a came
 
 - Remember to keep the full size original images - always edit copies.
 
-## Copyright
+## A note about copyright
 
 ### Images
 
 As a developer it is your duty to be aware of both the legal and ethical issues that your work involves. An important aspect is how copyright laws affects your work.
 
-Many students mistakenly feel that they can use any image that they find through Google in their own work. Most images will be copyright protected, meaning you would need permission of the owner before using anything you find. This is both an ethical and legal issue - should you steal someone elses work?
+Many students mistakenly feel that they can use any image that they find through Google in their own work. Most images will be copyright protected, meaning you would need permission of the owner before using anything you find. This is both an ethical and legal issue - should you steal someone else’s work?
 
 We are encouraging you to create and use your own media. If you do use a non-original image then we would like you to use [a free hero image from Unsplash](https://unsplash.com/search/photos/hero-image) because we know these are copyright free.
 
@@ -53,19 +54,19 @@ You should always credit the creator.
 
 ### Code
 
-It is too easy to use someone elses code. We expect you to develop your own code (based on what we supply) because you are trying to learn the basics of HTML, CSS and little JavaScript. Copying and pasting won't help.
+It is too easy to use someone else’s code. We expect you to develop your own code (based on what we supply) because you are trying to learn the basics of HTML, CSS and little JavaScript. Just as in Introduction to Programming, copying and pasting won’t help.
 
-If you feel you want to use someone elses code (as a small element of your site) you need to find out if you can explicitly do this.
+If you feel you want to use someone else’s code (as a small element of your site) you need to find out if you can explicitly do this.
 
 Code that can be shared often has explicit instructions in comments. Much code is open source but you need to check. Likewise most code in online tutorials is free to use.
 
 * As a student you should only use code that explicitly allows re-use.
-* You must credit the author/source.
+* You must credit the author/source in a comment in your source code.
 * You should only use code you understand - tutors will not debug it for you.
-* You must not use code from another students submission.
+* You must not use code from another student’s submission.
 * Whilst we encourage collaboration in the classroom, you must ensure your submission is your own.
 
-Finally you should evaluate the efficiency of any code you use. Is it well written or does it take a hundred lines to do what could be done in 5?
+Finally you should evaluate the efficiency of any code you use. Do you know enough about this language to be able to tell if it well written or does it take a hundred lines to do what could be done in 5, or are there faster or more maintainable approaches?
 
 For more information on Copyright read the UK government's document - [Copyright Notice: digital images,
 photographs and the internet](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/481194/c-notice-201401.pdf) 
@@ -78,4 +79,4 @@ If the legal and ethical aspects interest you, follow our friend [Heather Burns 
 
 Try to have your text ready for Week Two and images for Week Three.
 
-As the project proceeds students often decide to *upgrade* (improve) their text and images before the final submission. You don't have to stick with the content created in the initial weeks.
+As the project proceeds, and you can see how your site is evolving, students often decide to *upgrade* (improve) their text and images before the final submission. You don't have to stick with the content created in the initial weeks.
