@@ -18,7 +18,7 @@ You are going to develop a single page portfolio. This one page introduces you t
 
 ## Task 1 - Getting started
 
-- Download the template portfolio code from github and extract to your computer.
+- Download the template portfolio code from GitHub and extract to your computer.
 > **Download** - [The IWD Template Portfolio Site](https://github.com/mmu-webdesign/l4-rwd-template)
 
 ### Instructions
@@ -95,7 +95,7 @@ Apply html *tags* to your content. Remember to use headings, paragraphs, links, 
 ### Coding tips
 
 - Only one `<h1>`
-- Headings are about levels of importance. Therefore if each sub-section are of equal importance, they will all be for example `<h2>`.
+- Headings are about levels of importance. Therefore if each sub-section is of equal importance, they will all be for example `<h2>`.
 - Don't use `<br>` to create space - that's done later with CSS.
 - Create space with `<p>`, don't have big blocks of text (a single paragraph).
 - Use lists and tables if appropriate.
@@ -128,7 +128,7 @@ Title - The homepage `<title>` should set a content for the whole site. It can b
 
 As we have previously explained the meta description is usually displayed on the Google results page along with the URL of your site.
 
-Write a good description that compliments and expands on your title.
+Write a good description that complements and expands on your title.
 ```
 <meta name="description" content="Add your meta description here">
 ```
@@ -189,7 +189,7 @@ There are some drawbacks.
 - Fonts can be costly. 
 - Free doesn't always mean good. 
 
-We would like you to select either a single Google Font for both your headings and text, or a pair of complimentary fonts (one for headings, one for the text). 
+We would like you to select either a single Google Font for both your headings and text, or a pair of complementary fonts (one for headings, one for the text). 
 
 Read the [MDN Web Fonts article for much more detail](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts) if you would like a deeper understanding of what web fonts are, and how they are implemented. Please note that by using Google Fonts we are not asking you to download the fonts you are using, as described in the article.
 
@@ -199,8 +199,8 @@ Read the [MDN Web Fonts article for much more detail](https://developer.mozilla.
 
 ### Help in selecting your fonts
 
-- [Layouts designed with google fonts](https://femmebot.github.io/google-type/) 
-- [The best google fonts according to Typewolf](https://www.typewolf.com/google-fonts)
+- [Layouts designed with Google Fonts](https://femmebot.github.io/google-type/) 
+- [The best Google fonts according to Typewolf](https://www.typewolf.com/google-fonts)
 
 ### Apply your selected Google Font(s)
 
@@ -259,7 +259,7 @@ Experiment to see what works best for your chosen fonts. Are the paragraphs legi
 
 - Next adjust the line-height in your body rule. Adjust to improve the legibility of your text. 
 
-[Read the MDN article on Line Height](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height) to learn why it is better to use `number` values instead of `length` values  and why a minimum of 1.5 is good for accessability. 
+[Read the MDN article on Line Height](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height) to learn why it is better to use `number` values instead of `length` values  and why a minimum of 1.5 is good for accessibility. 
 
 - Save `layout.css` and check it's working by viewing `index.html` in your mobile size browser. Does it look right? Is it easy to read? 
 
@@ -293,7 +293,7 @@ On our [illustration of the layout (pdf)](https://github.com/mmu-webdesign/respo
 
 We will apply the colours next week.
 
-If you want to learn more [read Building Your Color Palette](https://refactoringui.com/previews/building-your-color-palette/). This will help in selecting your pallete, including selecting primary and accent colours.
+If you want to learn more [read Building Your Color Palette](https://refactoringui.com/previews/building-your-color-palette/). This will help in selecting your palette, including selecting primary and accent colours.
 
 > **Video** - Derren selects the colour scheme for his demonstration site using his magic colour scheme try out machine.
 
@@ -315,7 +315,7 @@ You must ensure that you maintain a good contrast between background and foregro
 - Lea Verou's [Contrast Ratio checker](https://contrast-ratio.com/).
 
 
-> BBC Gel (Global experience language) has a video that is worth watching as it explains how the accessibility of products we design and develop affect disabled peoples lives in a variety of ways. [Video - It's our passion, joy, and responsibility to build a great BBC for everyone](https://www.bbc.co.uk/gel/articles/bbc-for-everyone).
+> BBC Gel (Global experience language) has a video that is worth watching as it explains how the accessibility of products we design and develop affect disabled people's lives in a variety of ways. [Video - It's our passion, joy, and responsibility to build a great BBC for everyone](https://www.bbc.co.uk/gel/articles/bbc-for-everyone).
 
 ---
 
