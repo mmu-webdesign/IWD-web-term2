@@ -281,7 +281,7 @@ On our [illustration of the layout (pdf)](https://github.com/mmu-webdesign/respo
 - Headings
 - Navigation (background)
 - Navigation (text colour)
-- Sections (background) - two complimentary/contrasting colours
+- Sections (background) - two complementary/contrasting colours
 - Footer (background)
 - Link colours (all states)
 
