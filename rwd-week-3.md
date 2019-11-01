@@ -91,7 +91,7 @@ Copy the relevant code into your stylesheet: the 'class names' should already 
   justify-content: center;
 }
 ```
-Swap out `background: green;` with a suitable colour from your pallete. This is merely a fallback colour as we will be adding your *hero* image as the background next. 
+Swap out `background: green;` with a suitable colour from your palette. This is merely a fallback colour as we will be adding your *hero* image as the background next. 
 
 Make sure the colour you use has good contrast with your header text. **Why?** If your hero image fails to load you want to be sure the text is legible.
 
