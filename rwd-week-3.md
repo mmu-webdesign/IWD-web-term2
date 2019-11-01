@@ -3,7 +3,7 @@
 ## Working with layout
 
 ### Before you start - Are you up to date?
-Before you proceed use the check list found at the bottom of Week Two. Have you completed everything?
+Before you proceed to use the check list found at the bottom of Week Two. Have you completed everything?
 
 - Fix any problems before you continue.
 - Keep your browser window small - don't use it at full screen yet. We are still *mobile first*.
@@ -131,7 +131,7 @@ max-width: 500px;
 ```
 font-size: 1.35rem;
 ```
-- This font sizing is being replaced in the cascade. We have more specific styles for our heading and paragrpah (if you have a tag line).
+- This font sizing is being replaced in the cascade. We have more specific styles for our heading and paragraph (if you have a tag line).
 
 You should remove `font-size: 1.35rem` and might consider creating specific styles for the heading. For example:
 
@@ -142,7 +142,7 @@ You should remove `font-size: 1.35rem` and might consider creating specific styl
     line-height: 1;
 }
 ```
-This style targets the `<h1>` in the `<header>`. Adjust this style to work on mobile. A smaller value `line'height` is good if your header wraps on mobile and `margin-bottom` ensure a gap is retained between the heading and paragraph.  
+This style targets the `<h1>` in the `<header>`. Adjust this style to work on mobile. A smaller value `line-height` is good if your header wraps on mobile and `margin-bottom` ensure a gap is retained between the heading and paragraph.  
 
 The final section of code provides a very neat solution for creating a button out of the `<a>` element. **Why?** You may want to add a *call to action*. This may be a direct link to your form - *contact me* or perhaps to your *about me* section.
 
@@ -179,7 +179,7 @@ Commonly colour or images are used to define each section. This ensures that the
 
 [See how Apple use backgrounds to define sections on the current Mac page](https://www.apple.com/uk/mac/)  using subtle colours and (often) strong media.
 
-Use your colour scheme to provide contrast bewteen your `<section>`s.
+Use your colour scheme to provide contrast between your `<section>`s.
 
 ```
 /* background colours for sections */
@@ -204,7 +204,7 @@ Target the specific section classes.
 ```
 Test the colour contrast of your foreground (text) and background colours using [Lea Verou's Contrast Ratio checker](https://contrast-ratio.com). 
 
-> **Note** - this does not mean every section needs to be a different colour. Subtle shades are work well. A good tip for students is to think - 'have I ever seen a web page with colours like this before'. If the answer is no, you may need some advice regarding your choice of colours! 
+> **Note** - this does not mean every section needs to be a different colour. Subtle shades work well. A good tip for students is to think - 'have I ever seen a web page with colours like this before'. If the answer is no, you may need some advice regarding your choice of colours! 
 
 ---
 
