@@ -33,7 +33,7 @@ Let's break this down, improve the code and then add our hero image.
 .page-header {
   background: green;
 ```
-Lets define this clearer. Whilst `background` can be used as the shorthand, as we are only defining one value (the colour) let's do this properly. 
+Lets define this more clearly. Whilst `background` can be used as the shorthand, as we are only defining one value (the colour) let's do this properly. 
 
 Edit your CSS - Change to `background-color`.
 ```
@@ -314,7 +314,7 @@ Read MDN articles for more information on the [`<figure>` element](https://devel
 
 ---
 
-## Your garllery images
+## Your gallery images
 
 > Your own images should be fully optimised ready for the web, and sat in the images folder. Optimised means cropped, resized and compressed as best fits you and your users needs.
 
@@ -399,7 +399,7 @@ Use the following to centre the section header.
 ```
 Save and view.
 
-By default our `<figure>`'s have margins all around. We can target and remove these by applying `margin: 0;` to all the `figure`'s with a class of `.an-image`. 
+By default our `<figure>`s have margins all around. We can target and remove these by applying `margin: 0;` to all the `figure`'s with a class of `.an-image`. 
 
 ```
 .image-gallery .an-image {
@@ -473,7 +473,7 @@ This is the actual media query.
 
 ### Add another style to the media query
 
-We are next going to target each of our `<figure>`'s (with a class of `an-image`). 
+We are next going to target each of our `<figure>`s (with a class of `an-image`). 
 
 Add this within the media query:
 
@@ -485,20 +485,20 @@ Add this within the media query:
 }
 ```
 
-- `flex: 33%;` ensures that each of our `<figure>`'s takes up a third of the space. With three images of the same size we won't see much difference.
-- `padding: 20px;` gives each of our `<figure>`'s some padding all around.
+- `flex: 33%;` ensures that each of our `<figure>`s takes up a third of the space. With three images of the same size we won't see much difference.
+- `padding: 20px;` gives each of our `<figure>`s some padding all around.
 - and finally `background: white;` applies a background to each `<figure>`.
 
 *The padding and colour can be adjusted later to best fit your design as your work progresses*.
 
 >Save and view. 
 
-Once we expand past our `min-width` our three `<figure>`'s now sit nicely side by side. *If they don't, rewind to see what has gone wrong*.
+Once we expand past our `min-width` our three `<figure>`s now sit nicely side by side. *If they don't, rewind to see what has gone wrong*.
 
 
-The only remaining issue is that our background colour (white) looks like one big block. We can remedy this with a a little clever CSS.
+The only remaining issue is that our background colour (white) looks like one big block. We can remedy this with a little clever CSS.
 
-The final touch is to add a left margin to any of your `<figure>`'s (with their class of `.an-image`) that come after another `<figure>`. 
+The final touch is to add a left margin to any of your `<figure>`s (with their class of `.an-image`) that come after another `<figure>`. 
 
 To do this we add the following to your media query:
 ```
@@ -546,7 +546,7 @@ Experiment with your image sizes. Work out the largest image dimensions for your
 
 ---
 
-[Video - Implementing your gallery withflexbox and media queries](https://youtu.be/w76iCw6f_g0). Demonstration from Derren on the whole process.
+[Video - Implementing your gallery with flexbox and media queries](https://youtu.be/w76iCw6f_g0). Demonstration from Derren on the whole process.
 
 ---
 
