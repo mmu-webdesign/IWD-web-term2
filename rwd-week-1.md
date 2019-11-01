@@ -54,7 +54,7 @@ You should always credit the creator.
 
 ### Code
 
-It is too easy to use someone else’s code. We expect you to develop your own code (based on what we supply) because you are trying to learn the basics of HTML, CSS and little JavaScript. Just as in Introduction to Programming, copying and pasting won’t help.
+It is too easy to use someone else’s code. We expect you to develop your own code (based on what we supply) because you are trying to learn the basics of HTML, CSS and a little JavaScript. Just as in Introduction to Programming, copying and pasting won’t help.
 
 If you feel you want to use someone else’s code (as a small element of your site) you need to find out if you can explicitly do this.
 
