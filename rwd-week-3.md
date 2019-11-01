@@ -173,7 +173,7 @@ Video - [Call to action button demonstration](https://youtu.be/s1iEaJGeNdM).
 
 ## Task 3 - Background colours
 
-Our portfolio design uses a single page to deliver a variety of content. Whereas in the past this may have done with a number of separate pages, this technique gives us slick *all in one* design solution.
+Our portfolio design uses a single page to deliver a variety of content. Whereas in the past this may have been done with a number of separate pages, this technique gives us slick *all in one* design solution.
 
 Commonly colour or images are used to define each section. This ensures that the user (as they travel down the page) feel and notice they are moving from one section to the next.
 
