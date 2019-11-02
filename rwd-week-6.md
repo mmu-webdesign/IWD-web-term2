@@ -72,7 +72,7 @@ You can also target specific paragraphs with styles like `.about-me p {padding-b
 
 Have you added padding to your sections? The page can look cramped if you let the sections follow immediately after each other.
 
->**Tip** - Derren prefers to set margin's to zero and adjust padding in most cases. This keeps things simpler in most cases.
+>**Tip** - Derren prefers to set margins to zero and adjust padding in most cases. This keeps things simpler in most cases.
 
 Remember to keep text away from edges. Text running up against borders/edges is hard to read.
 
@@ -110,9 +110,9 @@ The [MOZ SEO Guide](https://moz.com/learn/seo/on-site-seo) explains:
 
 We have introduced you to Dev Tools in the browser. Here are some further browser resources.
 
-*   [The web developer toolbar for firefox and chrome](https://chrispederick.com/work/web-developer/)  
+*   [The web developer toolbar for Firefox and Chrome](https://chrispederick.com/work/web-developer/)  
 
-*   [Introduction to the chrome dev tools](https://developers.google.com/web/tools/chrome-devtools/)  
+*   [Introduction to the Chrome dev tools](https://developers.google.com/web/tools/chrome-devtools/)  
 
 *   [Firefox developer edition](https://www.mozilla.org/en-US/firefox/developer/)  
 
@@ -157,9 +157,9 @@ You should use and maintain the folder structure provided. If all of your files 
 -   Run an audit using Dev Tools in Chrome.  
 -   Validation HTML & CSS
 -   Accessibility audit (see links above)
--   Usability - get friends and family to test you page.  
+-   Usability - get friends and family to test your page.  
 
--   Design - test you design using the 5 second test for designs on colleagues, friends and family - [https://fivesecondtest.com/](https://fivesecondtest.com/) - see [https://www.nngroup.com/articles/testing-visual-design/](https://www.nngroup.com/articles/testing-visual-design/)
+-   Design - test your design using the 5 second test for designs on colleagues, friends and family - [https://fivesecondtest.com/](https://fivesecondtest.com/) - see [https://www.nngroup.com/articles/testing-visual-design/](https://www.nngroup.com/articles/testing-visual-design/)
 -   Are all of your images optimised for the web?
 -   Colour contrast - have you made the right choices with your colours?
 -   SEO - have you written good metadata and content with SEO in mind? See [Shaun Anderson's SEO tutorial for some good advice](https://www.hobo-web.co.uk/seo-tutorial/#page-title-element).  
