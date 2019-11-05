@@ -297,7 +297,7 @@ If you want to learn more [read Building Your Color Palette](https://refactoring
 
 > **Video** - Derren selects the colour scheme for his demonstration site using his magic colour scheme try out machine.
 
-[Link to the Magic Colour Scheme Try Out Machine](http://**).
+[Link to the Magic Colour Scheme Try Out Machine](https://55060509.webdevmmu.uk/colour-chooser/).
 
 
 ### Colour resources
