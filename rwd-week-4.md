@@ -8,7 +8,7 @@
 * [Task 2 - Adding our *hero* image](#Task-2---adding-our-hero-image)
 * [Task 3 - Background blend mode](#Task-3---Background-blend-mode) 
 * [Task 4 - The `header-content`](#Task-4---The-header-content)
-* [Task 5 - Using `figure` &amp; `figcaption`](#Task-5---Using-figure-&amp;-figcaption)
+* [Task 5 - Using `figure` and `figcaption`](#Task-5---Using-figure-and-figcaption)
 * [Task 6 - Introduction to media queries](#Task-6---introduction-to-media-queries)
 * [Task 7 - A responsive image gallery](#Task-7---A-responsive-image-gallery)
 * [Checklist](#Week-4-Checklist)
@@ -236,7 +236,7 @@ You can apply either of these techniques to your tagline paragraph as well. Adju
 
 ---
 
-## Task 5 - Using `figure` &amp; `figcaption`
+## Task 5 - Using `figure` and `figcaption`
 
 
 You already have the following structure for your image gallery.
