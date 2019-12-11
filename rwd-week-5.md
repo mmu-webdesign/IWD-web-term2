@@ -5,7 +5,7 @@
 * [Task 1 - Reviewing the navigation HTML](#Task-1---Reviewing-the-navigation-HTML)
 * [Task 2 - Styling the Navigation with Flexbox](#Task-2---Styling-the-Navigation-with-Flexbox)
 * [Task 3 - Reviewing the form HTML](#Task-3---Reviewing-the-form-HTML) 
-* [Task 4 - Styling the form](#Task4---Styling-the-form)
+* [Task 4 - Styling the form](#Task-4---Styling-the-form)
 * [Task 5 - Room for improvement](#Task-5---Room-for-improvement)
 * [Checklist](#Week-5---Checklist)
 
