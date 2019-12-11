@@ -23,7 +23,7 @@ Things to check when going through our instructions
 Check the basics:
 
 - relevant alt text for all images
-- If an image is *fluff* use a null alt
+- If an image is *fluff* use a null alt [*Fluff* - images that are purely decoration and do not add anything to the content of the document]
 - colour contrast
 - accessible form (use of 'label for')
 - legibility and readability
