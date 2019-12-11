@@ -11,7 +11,7 @@ Before you proceed, use the check list found at the bottom of Week Two. Have you
 ## Contents
 
 * [Task 1 - Adding a responsive column](#Task-1---Adding-a-responsive-column)
-* [Task 2 - Add the 'big header'](#Task-2---Add-the-'big-header')
+* [Task 2 - Add the 'big header'](#Task-2---Add-the-big-header)
 * [Task 3 - Background colours](#Task-3---Background-colours) 
 * [Task 4 - Styling the footer](#Task-4---Styling-the-footer)
 * [Checklist](#Week-3-Checklist)
