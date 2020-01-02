@@ -80,3 +80,27 @@ If the legal and ethical aspects interest you, follow our friend [Heather Burns 
 Try to have your text ready for Week Two and images for Week Three.
 
 As the project proceeds, and you can see how your site is evolving, students often decide to *upgrade* (improve) their text and images before the final submission. You don't have to stick with the content created in the initial weeks.
+
+## Task 1 - Mood board
+
+To kick off the design process create a mood board to collate influences and ideas for the portfolio page you are about to create. This will include:
+
+* Colours 
+* Typography
+
+Use your 6 photographs as the starting point. Sample some of the colours, looking for a theme. Also start to think about a 'hero' image. Do you already have a suitable image? Do you need to create one?
+
+The influences may be digital or physical.
+
+>&ldquo;Mood boards are visually stunning collections of ideas, full of textures and images that communicate the vision of a designer at the start of a project.&rdquo;
+
+Read the article [20 pro tips for creating inspirational mood boards](https://www.creativebloq.com/graphic-design/mood-boards-812470) before starting.
+
+### Inspiration
+
+Here's [a massive list of portfolio sites for inspiration](https://github.com/wilsonderren/website-inspiration). These sites will be more complex than what we are asking you to create but you can look for inspiration in colour, typography and writing styles and content.
+
+### Creating your Mood board
+
+You can create your mood board any way that suits, PhotoShop, PowerPoint or even a physical item.
+
