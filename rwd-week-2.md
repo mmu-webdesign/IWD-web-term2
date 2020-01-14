@@ -73,7 +73,7 @@ In class we will provide a review of the semantic structure and how this relates
 
 ### Download the PDF
 
->[Illustrated page layout & code structure](https://github.com/mmu-webdesign/responsive-web-tutorial/blob/master/design-templates/apprentice-website-structure.pdf)
+>[Illustrated page layout & code structure](design-templates/apprentice-website-structure.jpg)
 
 ---
 
