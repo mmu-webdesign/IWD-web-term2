@@ -23,3 +23,4 @@ Contact form – contact form as provided.
 ## Section Six
 Footer – MMU disclaimer as provided.
 
+*The full assignment brief and marking schedule are available on Moodle.*
