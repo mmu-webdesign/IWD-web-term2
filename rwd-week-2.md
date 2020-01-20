@@ -338,7 +338,7 @@ Before you start Week 3 - Have you completed everything?
 - Define the site in Visual Studio Code and view the files (`index.html`and `layout.css`)
 - Working mobile first - resize your browser
 - Review the structure - understand how the design is reflected in the semantic markup.
-- [View the full layout PDF](https://github.com/mmu-webdesign/responsive-web-tutorial/blob/master/design-templates/apprentice-website-structure.pdf).
+- [View the full layout PDF](design-templates/apprentice-website-structure.pdf).
 - Add your content to `index.html` and tag it up.
 - Validate to check for errors.
 - Add the box sizing and flexible image CSS re-sets.
