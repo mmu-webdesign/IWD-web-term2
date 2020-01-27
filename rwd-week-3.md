@@ -148,7 +148,7 @@ This style targets the `<h1>` in the `<header>`. Adjust this style to work on mo
 
 This final section of code provides a very neat solution for creating a button out of the `<a>` element. **Why?** You may want to add a *call to action*. This may be a direct link to your form - *contact me* or perhaps to your *about me* section.
 
-For example:
+For example, after your heading and tag line:
 
 ```
         <div class="header-content">
@@ -157,7 +157,7 @@ For example:
 ```
 Add...
 ```
-            <a href="#contact">Contact me</a>
+            <p><a href="#contact">Contact me</a></p>
 ```
 
 ```
