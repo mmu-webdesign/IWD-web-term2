@@ -73,7 +73,7 @@ In class we will provide a review of the semantic structure and how this relates
 
 ### Download the PDF
 
->[Illustrated page layout & code structure](design-templates/apprentice-website-structure.jpg)
+>[Illustrated page layout & code structure](design-templates/apprentice-website-structure.pdf)
 
 ---
 
@@ -278,7 +278,7 @@ As the project develops you will adjust and enhance these settings. You may spot
 
 ## Task 6 - Selecting a colour scheme
 
-On our [illustration of the layout (pdf)](https://github.com/mmu-webdesign/responsive-web-tutorial/blob/master/design-templates/apprentice-website-structure.pdf) we have alternate grey and white background colours for each section, plus a black background for both the navigation and footer. We would like you to select an appropriate colour scheme for these contrasting areas. This would include colours for:
+On our [illustration of the layout (pdf)](design-templates/apprentice-website-structure.pdf) we have alternate grey and white background colours for each section, plus a black background for both the navigation and footer. We would like you to select an appropriate colour scheme for these contrasting areas. This would include colours for:
 
 - Body text
 - Headings
@@ -338,7 +338,7 @@ Before you start Week 3 - Have you completed everything?
 - Define the site in Visual Studio Code and view the files (`index.html`and `layout.css`)
 - Working mobile first - resize your browser
 - Review the structure - understand how the design is reflected in the semantic markup.
-- [View the full layout PDF](https://github.com/mmu-webdesign/responsive-web-tutorial/blob/master/design-templates/apprentice-website-structure.pdf).
+- [View the full layout PDF](design-templates/apprentice-website-structure.pdf).
 - Add your content to `index.html` and tag it up.
 - Validate to check for errors.
 - Add the box sizing and flexible image CSS re-sets.
