@@ -144,8 +144,27 @@ You should remove `font-size: 1.35rem` and might consider creating specific styl
 ```
 This style targets the `<h1>` in the `<header>`. Adjust this style to work on mobile. A smaller value `line-height` is good if your header wraps on mobile and `margin-bottom` ensure a gap is retained between the heading and paragraph.  
 
-The final section of code provides a very neat solution for creating a button out of the `<a>` element. **Why?** You may want to add a *call to action*. This may be a direct link to your form - *contact me* or perhaps to your *about me* section.
+### Optional
 
+This final section of code provides a very neat solution for creating a button out of the `<a>` element. **Why?** You may want to add a *call to action*. This may be a direct link to your form - *contact me* or perhaps to your *about me* section.
+
+For example:
+
+```
+        <div class="header-content">
+            <h1>Site title</h1>
+            <p>Site subtitle - tag line</p>
+```
+Add...
+```
+            <a href="#contact">Contact me</a>
+```
+
+```
+        </div>
+```
+
+Now add this css to the `/* page header */`
 ```
 .header-content a {
     display: inline-block;
