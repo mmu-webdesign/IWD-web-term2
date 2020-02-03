@@ -132,6 +132,11 @@ If you haven't yet created a high quality hero image (you really should try) - y
 
 `*` There may be a few exceptions - they must always be approved by tutors.
 
+### Colour palette using your hero image
+
+You may still be deciding on your colour palette. [Using Adobe Color](https://color.adobe.com/create) you can select the `Extract from an image` option, upload your hero image; and this will provide you with a palette based on the image colours. Then try the various Color Mood options.
+
+
 ---
 
 ## Task 3 - Background blend mode
