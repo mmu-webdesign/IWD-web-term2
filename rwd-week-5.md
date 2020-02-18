@@ -373,6 +373,7 @@ And finally Derren implements both `min-width` &amp; `max-width` to ensure the w
   max-width: 90%;
 }
 ```
+
 ### Styling `submit` - the button
 
 Our selector uses an `attribute` selector to target `submit` (otherwise we would be apply these styles to all `input` elements).
