@@ -89,7 +89,8 @@ All descriptions go from worst (0%) to best (85–100%).
 * Files and folders are organised and file names are systematic.
 * Files and folders are organised and named to a professional standard.
 
-Design_quality
+## Design quality
+
 * Little or no attempt to create a relevant visual design for this site.
 * Limited or flawed attempt to create a relevant visual design for this site.
 * Partial attempt to fulfil the required relevant visual design for this site.
@@ -121,7 +122,7 @@ Design_quality
 * Your gallery is in place. The images are excellent quality and enhance your story.
 * Your gallery is in place. The images are excellent quality and fully enhance your story. The overall effect is professional.
 
-Usability
+## Usability
 
 * Little or no attempt to create a usable website.
 * Limited or flawed attempt to create a usable website
