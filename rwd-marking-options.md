@@ -4,6 +4,8 @@ All descriptions go from worst (0%) to best (85–100%).
 
 ## Metadata
 
+Metadata is marked by reading the metadata in the HTML – the meta description tag and the title tag.
+
 * Little or no attempt to create relevant metadata for titles or meta descriptions. You haven't edited the code supplied to add these.
 * Limited or flawed attempt to develop relevant metadata for titles or meta descriptions. You may have started editing the code, but you haven't completed it.
 * Partial attempt to fulfil the required metadata for titles and meta descriptions. You have edited the code, but the metadata is not relevant.
@@ -15,6 +17,8 @@ All descriptions go from worst (0%) to best (85–100%).
 
 ## HTML additions
 
+Marked by [validating the HTML](https://validator.w3.org/) and reading the code
+
 * Little or no attempt to use the supplied template.
 * Limited or flawed attempt to implement the supplied template. There are parts of HTML you still find difficult.
 * Partial attempt to implement the supplied template. You have made basic mistakes in your code.
@@ -25,6 +29,9 @@ All descriptions go from worst (0%) to best (85–100%).
 * Professional work that meets the required standards and shows creativity. Your code is written to a high standard."
 
 ## Accessibility
+
+Marked by reading alt text and scanning your source code
+
 * Little or no attempt to create an accessible website, or errors that make the site almost totally inaccessible.
 * Limited or flawed attempt to create an accessible website with unacceptable errors: you may for example have very poor colour contrast, poor or missing alt text.
 * Partial attempt to create an accessible website with unacceptable errors: you may have very poor colour contrast, poor or missing alt text.
@@ -35,6 +42,8 @@ All descriptions go from worst (0%) to best (85–100%).
 * Meticulous work that fulfils the required accessibility elements: you have excellent colour contrast, your alt text is fit for purpose. You have gone beyond what is required and added useful extra code or design elements to create an accessible, professional website.
 
 ## Working with CSS
+
+Marked by [validating](https://jigsaw.w3.org/css-validator/) and reading your CSS file
 
 * Little or no attempt to implement the stylesheet provided.
 * Limited or flawed attempt to implement the stylesheet for this site. There are big gaps in your knowledge of CSS and its syntax.
@@ -47,6 +56,8 @@ All descriptions go from worst (0%) to best (85–100%).
 
 ## Image Implementation
 
+Marked by reviewing pixel dimensions and file sizes of images. Use your operating system, Photoshop or Figma to check your images sizes in pixels.
+
 * No attempt to add images to your page.
 * Code is in place but images fail to load.
 * Code is in place, images load but are not optimised for the web.
@@ -57,6 +68,8 @@ All descriptions go from worst (0%) to best (85–100%).
 * Code is in place and all images are fully optimised for the web. You have added further code or modified your images to fit your website.
 
 ## RWD Implementation
+
+Marked by viewing site on mobile device and inspecting source code
 
 * Little or no attempt to implement a responsive design.
 * Limited or flawed attempt to implement a responsive design.
@@ -69,6 +82,8 @@ All descriptions go from worst (0%) to best (85–100%).
 
 ## Javascript
 
+Marked by viewing code and visually checking submission
+
 * No attempt to add the JavaScript.
 * Code is in place but has major syntax errors.
 * Code is in place but does not work.
@@ -79,6 +94,8 @@ All descriptions go from worst (0%) to best (85–100%).
 * Code is in place and works correctly. You have added further code or modified it successfully to fit your website.
 
 ## Overall technical implementation
+
+This includes file naming and folders. Marked by viewing submission files
 
 * There is no folders structure to your site.
 * Files and folders are totally disorganised and some may be missing.
@@ -91,6 +108,8 @@ All descriptions go from worst (0%) to best (85–100%).
 
 ## Design quality
 
+Marked by viewing page with CSS on.
+
 * Little or no attempt to create a relevant visual design for this site.
 * Limited or flawed attempt to create a relevant visual design for this site.
 * Partial attempt to fulfil the required relevant visual design for this site.
@@ -101,6 +120,8 @@ All descriptions go from worst (0%) to best (85–100%).
 * Professional standard work that fulfils the required design elements and shows creativity. This is an excellent design that looks and feels professional.
 
 ## Writing and content
+
+Marked by reading content. We will pay attention to the overall word count, which is created automatically from your source code.
 
 * No attempt to add content.
 * Little attempt to add content - may still contain placeholder text like lorem ipsum.
@@ -113,6 +134,8 @@ All descriptions go from worst (0%) to best (85–100%).
 
 ## Use of imagery
 
+May include photographs and/or illustrations. Marked by viewing page
+
 * There is no image gallery or images in your submission.
 * Your images are present but have not been added to the web page.
 * Your images are present and you have attempted to add them to your web page. There may be more than one issue.
@@ -124,6 +147,8 @@ All descriptions go from worst (0%) to best (85–100%).
 
 ## Usability
 
+Marked by viewing the page and interacting with it on a variety of devices.
+
 * Little or no attempt to create a usable website.
 * Limited or flawed attempt to create a usable website
 * Partial attempt to create a usable website with unacceptable issues.
@@ -133,3 +158,6 @@ All descriptions go from worst (0%) to best (85–100%).
 * Your site has an excellent level of usability, and works well for touchscreen or standard computer displays. You have gone beyond what is required and added useful extra code or design elements.
 * Meticulous work that fulfils the usability requirements of this project: your site works well for touchscreen or standard computer displays. You have gone beyond what is required and added useful extra code or design elements to create a professional website.
 
+## Your overall mark
+
+Your overall mark is worked out on the basis of the average of the individual marks for your site: so it’s better to spend time on each aspect of your site rather than concentrating on just one.
