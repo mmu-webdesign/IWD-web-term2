@@ -6,14 +6,14 @@ All descriptions go from worst (0%) to best (85–100%).
 
 Metadata is marked by reading the metadata in the HTML – the meta description tag and the title tag.
 
-* Little or no attempt to create relevant metadata for titles or meta descriptions. You haven't edited the code supplied to add these.
-* Limited or flawed attempt to develop relevant metadata for titles or meta descriptions. You may have started editing the code, but you haven't completed it.
-* Partial attempt to fulfil the required metadata for titles and meta descriptions. You have edited the code, but the metadata is not relevant.
-* Satisfactory attempt to fulfil the required metadata for titles and meta descriptions. You have edited the code, but the metadata is not completely relevant.
-* Coherent and careful delivery of the required metadata. You have added relevant metadata but more detail is expected to add context.
-* Thorough and precise delivery of the required metadata. There may be minor errors. You have edited, relevant metadata that is useful for SEO.
-* Meticulous work that fulfils the required metadata and shows sophistication. You have edited, relevant metadata that is useful for SEO and reads well.
-* Professional standard work that fulfils the required metadata and shows creativity. You have edited, relevant metadata that is useful for SEO, reads well and has personality.
+* **0-19** Little or no attempt to create relevant metadata for titles or meta descriptions. You haven't edited the code supplied to add these.
+* **20–34** Limited or flawed attempt to develop relevant metadata for titles or meta descriptions. You may have started editing the code, but you haven't completed it.
+* **35–39** Partial attempt to fulfil the required metadata for titles and meta descriptions. You have edited the code, but the metadata is not relevant.
+* **40–49** Satisfactory attempt to fulfil the required metadata for titles and meta descriptions. You have edited the code, but the metadata is not completely relevant.
+* **50–59** Coherent and careful delivery of the required metadata. You have added relevant metadata but more detail is expected to add context.
+* **60–69** Thorough and precise delivery of the required metadata. There may be minor errors. You have edited, relevant metadata that is useful for SEO.
+* **70–85** Meticulous work that fulfils the required metadata and shows sophistication. You have edited, relevant metadata that is useful for SEO and reads well.
+* **86–100** Professional standard work that fulfils the required metadata and shows creativity. You have edited, relevant metadata that is useful for SEO, reads well and has personality.
 
 ## HTML additions
 
@@ -26,7 +26,7 @@ Marked by [validating the HTML](https://validator.w3.org/) and reading the code
 * Coherent and careful delivery of code that reflects best practices. There may be some errors. The code has been written carefully.
 * Thorough and precise delivery of code that reflects best practices. There may be minor errors. The code has been written carefully and extra tags may have been added.
 * Meticulous coding work that fulfils the required standards and shows sophistication. You have clearly practised and are starting to gain a very good understanding of semantic HTML.
-* Professional work that meets the required standards and shows creativity. Your code is written to a high standard."
+* Professional work that meets the required standards and shows creativity. Your code is written to a high standard.
 
 ## Accessibility
 
