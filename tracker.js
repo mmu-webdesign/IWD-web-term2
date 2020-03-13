@@ -11,15 +11,15 @@ var oldPageOffset = 0; // we need this to set up our page scrolling counter - we
 function reportOnUserBehaviour() {
     var current_time = new Date(); // we can then compare this with start_time to see how long the user has been on the page.
 
-    // We could log this to the console or save it to a spreadsheet/database using 'AJAX'
+    // We could log this to the console, as we are doing here, or (much more advanced) save it to a spreadsheet/database using AJAX to review later
 
     console.log('Report ' + report_number);
     console.log('In the last ' + seconds_between_reports + ' seconds, the user has...');
     console.log('* scrolled ' + scroll_count + ' pixels');
-    console.log('* clicked on ' + click_count + ' things:');
+    console.log('* clicked on ' + click_count + ' things');
     if (click_count > 0) {
         for (i = 0; i < click_things.length; i++) {
-            console.log('* clicked on an ' + click_things[i]);
+            console.log('* ' + click_things[i]);
         }
     }
 
