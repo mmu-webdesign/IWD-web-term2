@@ -231,34 +231,72 @@ Find the above comment in `layout.css` and add styles to headings and paragraphs
 
 - If you have selected a second Google Font for headings you will need to apply this (usually to all headings).
 
+
 ```
-h1, h2, h3 {
-font-family: Google font, web safe font, generic fallback;
+h1,
+h2 {
+    font-weight: normal;
+    font-family: sans-serif;
+    /* Google font, web safe font, generic fallback */
 }
 ```
 - Add a font-size in rems.
 - Remember that 1rem equals the font size of the html element (which for most browsers has a default value of 16px).
 - Experiment with the values below, adjusting them to sizes that suit your design.
+
+> For example as your design evolves you will find the padding for your h2 will need adjusting to create space.
+
 - For more about the different ways of setting the font size - [CSS Tricks Font Sizes article](https://css-tricks.com/almanac/properties/f/font-size/).
 
 ```
 h1 {
-  font-size: 2rem;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
 }
 
 h2 {
-  font-size: 1.5rem;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
 }
 
 p {
-  font-size: 1rem;
+    margin: 0;
+    padding: 0;
 }
 
 ```
 Experiment to see what works best for your chosen fonts. Are the paragraphs legible? Are the headings suitably big enough?
 
+Remember elements like padding can be adjusted as such:
+
+```
+padding-top: 5px;
+padding-right: 5px;
+padding-bottom: 10px;
+padding-left: 5px;
+
+```
+Or like this with short hand...
+
+```
+/* top | right | bottom | left */
+
+padding: 5px 5px 10px 5px;
+
+```
+See [MDN Padding for more on the properties and shorthand](https://developer.mozilla.org/en-US/docs/Web/CSS/padding).
+
+
 > **Remember** we are still mobile size. 
 
+### Line height
 
 - Next adjust the line-height in your body rule. Adjust to improve the legibility of your text. 
 
@@ -290,7 +328,9 @@ On our [illustration of the layout (pdf)](design-templates/apprentice-website-st
 
 [Research a colour scheme - try coolors.co](https://coolors.co/). 
 
-**Choose one primary colour and use tints and shades of that colour for the backgrounds. You may also want to select an accent colour.**
+> Choose one primary colour and use tints and shades of that colour for the backgrounds. You may also want to select an accent colour.
+
+ **Don't create a colour scheme full of strong colours**.
 
 **Colour contrast** - check that that each colour/tint has a strong contrast with your text colour. Test each section colour by using [Lea Verou's Contrast ratio checker](http://contrast-ratio.com/). You are looking for a AAA (green) pass for each section. 
 
