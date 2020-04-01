@@ -1,15 +1,15 @@
-# RWD Week Seven
+# RWD Week Eight and Nine · JavaScript
 
-## Adding the JavaScript
-
-### Adding the time-based message code
+## Adding the time-based message code
 
 * The [initial state of the code is available on this codepen](https://codepen.io/wilsondmmu/pen/43ef68f25d5275d02fa51d9e0298b419).
-* There are two ways of adding the initial code, inline or as a separate JavaScript file
+* There are two ways of adding the initial code:
+1. *Inline*, which adds more code, in a different language, to an already busy page, which can confuse your text editor
+2. Or as a separate JavaScript file, keeping the code separate in your editor, and making it easier to add updates and debug.
 
 ### Adding the code inline
 
-* Go to the bottom of your HTML page (JavaScript cannot be added to CSS files)
+* Go to the bottom of your HTML page (JavaScript **cannot** be added to CSS files)
 * Just before the ending `<body>` tag, create a `<script></script>` tag
 * Go to the codepen above
 * Copy the code in the JS box
@@ -34,54 +34,37 @@
 
 * Old browsers might not run this code: if so, update your browser if possible
 * Internet Explorer may not run the code if the HTML page is not online: Chrome and Firefox seem to be fine
-* Don't add this code to the `<head>` of your page, as the DOM needs to be created before the code can work correctly
+* Don't add this code to the `<head>` of your page, as the DOM - defined in the lecture – needs to be created before the code can work correctly
 * Remember you have the console available in the web developer inspector in Chrome and Firefox to help if you are having problems - check the network tab and the console tab for errors.
 
-### Things to try
+### Things to do to customise the code for your site
 
 * Change the message
 * Change the hours
-* Think about what might happen if the site visitor is not in the same country as you
-* Add more options
+* Think about what might happen if the site visitor is not in the same country as you. Are they getting the right information if their computer is set to a different time-zone?
+* Add more message options
 * Anything else you think might be of use to a site visitor: just make sure that you are progressively enhancing the page, and that users without JavaScript won't be unduly penalised compared to users who do have JavaScript turned on.
 
-## Adding the button code
+
+## Adding the user tracking code
+
+
+* Remember this code will not do anything visible on the page. You will need to open the console in your web browser to see it working.
+* The console on mobile browsers is quite difficult to access. It’s much easier to use a desktop computer to see what’s going on.
 
 ### Implementing the code
 
-Adding this piece of functionality does require you to add code to your HTML, CSS and JavaScript - but take it slowly and it'll be fine.
+* The code you need is [viewable on GitHub](https://github.com/mmu-webdesign/l4-IWD-web-term2/blob/master/tracker.js). **Don’t** use `file -> save as...` from this page as you’ll get the entire HTML of the GitHub page, instead read on...
+* Either click on 'RAW' or [use this link to get the JavaScript code](https://raw.githubusercontent.com/mmu-webdesign/l4-IWD-web-term2/master/tracker.js) in a form that you **can** use `file -> save as...` to download the code to your computer.
+* Add the code to last week’s JavaScript. 
+* Remember: at the moment it is best practice to have a single JavaScript file if you are adding your code as a separate file, as it takes time for the browser to fetch each files - fewer files to fetch, the earlier the page is ready for the user to start interacting with it. 
+* Use the console to verify the code is working correctly, or if it isn’t, then use the errors in the console to fix the problems you find.
 
-### Changes to make to the HTML
+### Adding things to the code
 
-In your form section (`.contact-me`):
-* For each form field (e.g. `<input id="contact-name" type="text" name="contact-name" />`) add the single word 'required', like so `<input id="contact-name" type="text" name="contact-name" required />`
-* Add the same `required` attribute to the textarea as well
-* For the phone number, you may wish to add a 'pattern' attribute, which looks like this: `pattern="[0-9 ()+]*"`. The `pattern` attribute only allows users to type in the characters in the quotes. In English, this pattern says - you can only type in the numbers 0 to 9, smooth brackets, a space, or a plus sign (but you can type as many of all of those as you want to).
+* There are some suggestions on moodle about how you might want to ‘extend’ this code – it’s entirely up to you at this point. You may want to get the code working and then continue getting the rest of your site ready for submission. 
+* If you do decide to modify the code, this [introduction to events at MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events) could be useful to explain how web browsers listen out for things happening in your documents.
+* As before, make sure that you are progressively enhancing the page, you are considering the user’s privacy, and that users without JavaScript won't be unduly penalised compared to users who do have JavaScript turned on.
 
-### Changes to make to the JavaScript
-
-* If you are working inline, just [go to the codepen](https://codepen.io/wilsondmmu/pen/rRmGNV?editors=1010) and cut and paste the code in after last week's
-* If you are working with a separate file, either add this week's code to that code, or create a new file as above and link it in to your HTML in the same way.
-
-### Changes to make to the CSS
-
-* You can see the CSS I've used in the codepen CSS box - it looks like this:
-
-``` form input[type="submit"].js-disable-button 
-{
-color:grey; 
-padding-left: 24px; 
-background:white url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/923354/Rolling-1s-18px.gif) left center no-repeat;
-} 
-```
-* When the JavaScript adds the class, the CSS will pick it up and restyle the button using the code above.
-* The animated gif spinner is the long `amazonaws` URL in the background code line. We will make more spinners available so you can find one to fit your design.
-
-### How to test everything is working
-
-* Try filling all but one of the form fields and clicking 'submit' - it should give you a message to say 'please fill in this field' next to the missing information
-* Try messing up the email address - it shouldn't allow you to send the form without a valid email address
-* Try messing up or typing text into the phone field - it shouldn't allow you to do this
-* The line that says `return true;` in the JavaScript: temporarily change this to `return false;` and fill the form in correctly. The button will then change as if the form is being sent but nothing will happen, so you can check your button styling.
 
 [Return to the Top](#contents)
