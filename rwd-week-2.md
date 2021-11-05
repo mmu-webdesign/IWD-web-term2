@@ -21,7 +21,9 @@ You are going to develop a single page portfolio. This one page introduces you t
 - Download the template portfolio code from GitHub and extract to your computer.
 > **Download** - [The IWD Template Portfolio Site](https://github.com/mmu-webdesign/l4-IWD-web-term-2-template)
 
-### Instructions
+- OR [‘fork’ the code from the Replit.com website](https://replit.com/@wilsonderrenmmu/IWD-template). **Using this method will make it easier to test your website**
+
+### Instructions for GitHub
 - Select the green _Clone or download_ button, select _Download ZIP_. Locate the ZIP file and extract the contents.
 Extract the folder to a safe location on your computer.
 - Rename the folder `portfolio`. 
@@ -35,7 +37,18 @@ Extract the folder to a safe location on your computer.
 
 ---
 
-- Test `index.html` in a browser. 
+## Instructions for Replit.com
+
+* Log-in to Replit.com
+* Go to [https://replit.com/@wilsonderrenmmu/IWD-template](the replit.com code) with your web browser
+* Choose ‘Fork repl’ and the code will be copied into your Replit.com area
+* Click ‘Run’ to see updates to your code
+* You can invite the tutors to your code and we can leave comments on your work
+* Your work is autosaved
+* You can view your work by using the web address in the top right hand box above the web view in Replit.com, for example [https://IWD-template.wilsonderrenmmu.repl.co](https://IWD-template.wilsonderrenmmu.repl.co).
+
+
+- Test `index.html` displays some content. At the moment it won’t be totally responsive, but if you are just adding HTML content it won’t be far off. 
 - Check `layout.css` is working by adding the line: 
 
 ```
@@ -43,7 +56,7 @@ Extract the folder to a safe location on your computer.
  ```
 
 
-- Save `layout.css` and re-load `index.html` in the browser. Everything should get a red border. Yes? Then you can delete this line of CSS.
+- Save `layout.css` and re-load `index.html`. Everything should get a red border. Yes? Then you can delete this line of CSS.
 
 ### Your *root* folder
 
